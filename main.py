@@ -8,6 +8,7 @@ from langchain.prompts import ChatPromptTemplate
 import os
 import pandas as pd
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.encoders import jsonable_encoder
 import numpy as np
 from dotenv import load_dotenv
@@ -150,6 +151,14 @@ def sanitize_data(data: List[Dict[str, Union[int, float, str]]]) -> List[Dict[st
     return data
 
 app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"], 
+    allow_headers=["*"], 
+)
+
 recomendador = MajorRecommender()
 
 @app.get("/api/test")
