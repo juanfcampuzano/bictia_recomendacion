@@ -142,6 +142,10 @@ def convert_numpy_to_native(data):
 app = FastAPI()
 recomendador = MajorRecommender()
 
+@app.get("/test")
+def test():
+    return {"response":"test"}
+
 @app.get("/{role}")
 def get_role(role):
     respuesta = recomendador.get_recommendations(role)
