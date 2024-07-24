@@ -1,0 +1,818 @@
+﻿ID,Area programa educativo,Titulo egresado
+1,Administración,ADMINISTRADOR(A) DE EMPRESAS
+2,Antropología y  artes liberales,ANTROPOLOGO(A)
+3,Arquitectura,ARQUITECTO(A)
+4,Artes plásticas visuales y afines,MAESTRO EN ARTES PLASTICAS
+5,Biología microbiología y afines,BIOLOGO(A)
+6,Ciencia política relaciones internacionales,POLITÓLOGO (A)
+7,Matemáticas estadística y afines,CIENTÍFICO(A) DE LA COMPUTACIÓN
+8,Artes plásticas visuales y afines,REALIZADOR(A) DE CINE Y TELEVISION
+9,Contaduría pública,CONTADOR(A) PUBLICO(A)
+10,Derecho y afines,ABOGADO(A)
+11,Diseño,DISEÑADOR(A) GRAFICO
+12,Diseño,DISEÑADOR(A) INDUSTRIAL
+13,Economía,ECONOMISTA
+14,Enfermería,ENFERMERO(A)
+15,Lenguas modernas literatura linguística y afines,LICENCIADO EN ESPAÑOL Y FILOLOGIA CLASICA
+16,Matemáticas estadística y afines,ESTADISTICO(A)
+17,Lenguas modernas literatura linguística y afines,PROFESIONAL EN ESTUDIOS LITERARIOS
+18,Química y afines,QUIMICO(A) FARMACEUTICO(A)
+19,Lenguas modernas literatura linguística y afines,LICENCIADO(A) EN FILOLOGIA E IDIOMAS
+20,Filosofía teología y afines,FILOSOFO(A)
+21,Física,FISICO(A)
+22,Terapias,FISIOTERAPEUTA
+23,Terapias,FONOAUDIOLOGO (A)
+24,Geografía historia,GEOGRAFO (A)
+25,Geología otros programas de ciencias naturales,GEOLOGO(A)
+26,Geografía historia,HISTORIADOR(A)
+27,Ingeniería agrícola forestal y afines,INGENIERO(A) AGRICOLA
+28,Ingeniería agronómica pecuaria y afines,INGENIERO(A) AGRONOMO(A)
+29,Ingeniería civil y afines,INGENIERO(A) CIVIL
+30,Ingeniería de sistemas telemática y afines,INGENIERO(A) DE SISTEMAS Y COMPUTACION
+31,Ingeniería eléctrica y afines,INGENIERO (A) ELECTRICISTA
+32,Ingeniería electrónica telecomunicaciones y afines,INGENIERO(A) ELECTRONICO(A)
+33,Ingeniería industrial y afines,INGENIERO(A) INDUSTRIAL
+34,Ingeniería mecánica y afines,INGENIERO(A) MECANICO(A)
+35,Ingeniería mecánica y afines,INGENIERO(A) MECATRONICO(A)
+36,Ingeniería química y afines,INGENIERO(A) QUIMICO(A)
+37,Lenguas modernas literatura linguística y afines,LINGUISTICA
+38,Matemáticas estadística y afines,MATEMATICO(A)
+39,Medicina,MEDICO(A) CIRUJANO(A)
+40,Medicina veterinaria,MEDICO(A) VETERINARIO(A)
+41,Música,MUSICO CON ENFASIS EN ...
+42,Música,MUSICO INSTRUMENTALISTA CON ENFASIS EN...
+43,Nutrición y dietética,NUTRICIONISTA-DIETISTA
+44,Odontología,ODONTOLOGO(A)
+45,Psicología,PSICOLOGO(A)
+46,Química y afines,QUIMICO(A)
+47,Sociología trabajo social y afines,SOCIOLOGO(A)
+48,Terapias,TERAPEUTA OCUPACIONAL
+49,Sociología trabajo social y afines,TRABAJADOR(A) SOCIAL
+50,Zootecnia,ZOOTECNISTA
+51,Administración,ADMINISTRADOR DE EMPRESAS
+52,Administración,ADMINISTRADOR DE RIESGOS SEGURIDAD Y SALUD EN EL TRABAJO
+53,Contaduría pública,CONTADOR PUBLICO
+54,Derecho y afines,ABOGADO
+55,Economía,ECONOMISTA
+56,Medicina,MEDICO
+57,Ingeniería civil y afines,INGENIERO CIVIL
+58,Ingeniería mecánica y afines,INGENIERO EN MECATRONICA
+59,Ingeniería de sistemas telemática y afines,INGENIERO EN MULTIMEDIA
+60,Ingeniería electrónica telecomunicaciones y afines,INGENIERO EN TELECOMUNICACIONES
+61,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+62,Ciencia política relaciones internacionales,PROFESIONAL EN RELACIONES INTERNACIONALES Y ESTUDIOS POLITICOS
+63,Administración,ADMINISTRADOR DE EMPRESAS COMERCIALES
+64,Bacteriología,BACTERIOLOGO Y LABORATORISTA CLINICO
+65,Arquitectura,CONSTRUCTOR Y GESTOR EN ARQUITECTURA
+66,Derecho y afines,ABOGADO
+67,Diseño,DISEÑADOR DIGITAL Y DE MULTIMEDIA
+68,Economía,ECONOMISTA
+69,Sociología trabajo social y afines,TRABAJADOR SOCIAL
+70,Administración,PROFESIONAL EN TURISMO
+71,Administración,ADMINISTRADOR AMBIENTAL
+72,Administración,PROFESIONAL EN ADMINISTRACION DEPORTIVA
+73,Bibliotecología otros de ciencias sociales y humanas,PROFESIONAL EN ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL
+74,Artes representativas,MAESTRO EN ARTE DANZARIO
+75,Artes representativas,MAESTRO EN ARTES ESCENICAS
+76,Música,MAESTRO EN ARTES MUSICALES
+77,Artes plásticas visuales y afines,MAESTRO EN ARTES PLASTICAS Y VISUALES
+78,Biología microbiología y afines,BIÓLOGO
+79,Comunicación social periodismo y afines,COMUNICADOR SOCIAL Y PERIODISTA
+80,Física,FÍSICO
+81,Ingeniería civil y afines,INGENIERO CIVIL
+82,Ingeniería ambiental sanitaria y afines,INGENIERO AMBIENTAL
+83,Ingeniería civil y afines,INGENIERO CATASTRAL Y GEODESTA
+84,Ingeniería industrial y afines,INGENIERO DE PRODUCCION
+85,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS
+86,Ingeniería eléctrica y afines,INGENIERO ELECTRICO
+87,Ingeniería eléctrica y afines,INGENIERO ELÉCTRICO
+88,Ingeniería electrónica telecomunicaciones y afines,INGENIERO ELECTRONICO
+89,Ingeniería electrónica telecomunicaciones y afines,INGENIERO EN TELECOMUNICACIONES
+90,Ingeniería electrónica telecomunicaciones y afines,INGENIERO(A) EN CONTROL Y AUTOMATIZACIÓN
+91,Ingeniería de sistemas telemática y afines,INGENIERO(A) EN TELEMÁTICA
+92,Ingeniería agrícola forestal y afines,INGENIERO FORESTAL
+93,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+94,Ingeniería mecánica y afines,INGENIERO MECANICO
+95,Ingeniería ambiental sanitaria y afines,INGENIERO SANITARIO
+96,Ingeniería civil y afines,INGENIERO TOPOGRAFICO
+97,Educación,LICENCIADO(A)   EN HUMANIDADES Y LENGUA CASTELLANA
+98,Educación,LICENCIADO(A)  EN MATEMATICAS
+99,Educación,LICENCIADO(A)  EN CIENCIAS SOCIALES
+100,Educación,LICENCIADO(A) EN BIOLOGIA
+101,Educación,LICENCIADO EN EDUCACIÓN ARTÍSTICA
+102,Educación,LICENCIADO (A) EN EDUCACION INFANTIL
+103,Educación,LICENCIADO EN FISICA
+104,Educación,LICENCIADO(A) ENLENGUAS EXTRANJERAS CON ENFASIS EN INGLES
+105,Educación,LICENCIADO EN QUIMICA
+106,Matemáticas estadística y afines,MATEMATICO
+107,Química y afines,QUÍMICO (A)
+108,Administración,ADMINISTRADOR DE EMPRESAS
+109,Antropología y  artes liberales,ANTROPÓLOGO(A)
+110,Arquitectura,ARQUITECTO
+111,Artes representativas,MAESTRO EN ARTES ESCÉNICAS
+112,Artes plásticas visuales y afines,MAESTRO EN ARTES VISUALES
+113,Bacteriología,BACTERIOLOGO
+114,Ingeniería ambiental sanitaria y afines,BIOINGENIERO(A)
+115,Biología microbiología y afines,BIOLOGO
+116,Matemáticas estadística y afines,CIENTÍFICO(A) DE DATOS
+117,Bibliotecología otros de ciencias sociales y humanas,PROFESIONAL EN CIENCIA DE LA INFORMACION BIBLIOTECOLOGIA Y ARCHIVISTICA
+118,Ciencia política relaciones internacionales,POLITOLOGO
+119,Comunicación social periodismo y afines,COMUNICADOR SOCIAL
+120,Contaduría pública,CONTADOR PUBLICO
+121,Derecho y afines,ABOGADO
+122,Diseño,DISEÑADOR INDUSTRIAL
+123,Biología microbiología y afines,ECOLOGO
+124,Economía,ECONOMISTA
+125,Enfermería,ENFERMERA(O)
+126,Lenguas modernas literatura linguística y afines,PROFESIONAL EN ESTUDIOS LITERARIOS
+127,Música,MAESTRO EN MUSICA
+128,Filosofía teología y afines,FILOSOFO
+129,Administración,PROFESIONAL EN FINANZAS
+130,Geografía historia,HISTORIADOR
+131,Ingeniería civil y afines,INGENIERO CIVIL
+132,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS
+133,Ingeniería electrónica telecomunicaciones y afines,INGENIERO ELECTRONICO
+134,Ingeniería de sistemas telemática y afines,INGENIERO(A) EN REDES Y TELECOMUNICACIONES
+135,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+136,Ingeniería mecánica y afines,INGENIERO (A) MECÁNICO (A)
+137,Sin clasificar,INGENIERO(A) MECATRÓNICO(A)
+138,Educación,LICENCIADO(A) EN CIENCIAS NATURALES Y EDUCACION AMBIENTAL
+139,Educación,LICENCIADO EN EDUCACION FISICA
+140,Educación,LICENCIADO(A) EN EDUCACIÓN INFANTIL
+141,Educación,LICENCIADO EN FILOSOFIA
+142,Educación,LICENCIADO EN LENGUAS MODERNAS CON ÉNFASIS EN INGLÉS Y FRANCÉS
+143,Educación,LICENCIADO(A) EN LITERATURA Y LENGUA CASTELLANA
+144,Educación,LICENCIADO EN TEOLOGIA
+145,Matemáticas estadística y afines,MATEMÁTICO
+146,Medicina,MEDICO CIRUJANO
+147,Biología microbiología y afines,MICROBIOLOGO INDUSTRIAL
+148,Nutrición y dietética,NUTRICIONISTA DIETISTA
+149,Odontología,ODONTOLOGO
+150,Psicología,PSICOLOGO(A)
+151,Química y afines,QUÍMICO (A) FARMACÉUTICO (A)
+152,Ciencia política relaciones internacionales,INTERNACIONALISTA
+153,Sociología trabajo social y afines,SOCIÓLOGO (A)
+154,Filosofía teología y afines,TEOLOGO
+155,Administración,ADMINISTRADOR AMBIENTAL Y DE LOS RECURSOS NATURALES
+156,Administración,ADMINISTRADOR DE EMPRESAS
+157,Administración,PROFESIONAL EN ADMINISTRACIÓN  DE EMPRESAS
+158,Administración,ADMINISTRADOR DE EMPRESAS AGROPECUARIAS
+159,Comunicación social periodismo y afines,COMUNICADOR SOCIAL
+160,Arquitectura,CONSTRUCTOR EN ARQUITECTURA E INGENIERIA
+161,Contaduría pública,CONTADOR PUBLICO
+162,Deportes educación física y recreación,PROFESIONAL EN CULTURA FISICA DEPORTE Y RECREACION
+163,Derecho y afines,ABOGADO
+164,Diseño,DISEÑADOR GRÁFICO
+165,Economía,ECONOMISTA
+166,Educación,LICENCIADO(A) EN EDUCACION RELIGIOSA
+167,Matemáticas estadística y afines,PROFESIONAL EN ESTADÍSTICA
+168,Ciencia política relaciones internacionales,PROFESIONAL EN GOBIERNO Y RELACIONES INTERNACIONALES
+169,Ingeniería ambiental sanitaria y afines,INGENIERO AMBIENTAL
+170,Ingeniería civil y afines,INGENIERO CIVIL
+171,Ingeniería electrónica telecomunicaciones y afines,INGENIERO DE TELECOMUNICACIONES
+172,Ingeniería electrónica telecomunicaciones y afines,INGENIERO ELECTRONICO
+173,Ingeniería de sistemas telemática y afines,INGENIERO INFORMATICO
+174,Ingeniería industrial y afines,INGENIERO EN  LOGISTICA Y  OPERACIONES
+175,Ingeniería industrial y afines,INGENIERO (A)  INDUSTRIAL
+176,Ingeniería mecánica y afines,INGENIERO MECANICO
+177,Educación,LICENCIADO EN BIOLOGÍA
+178,Educación,LICENCIADO(A) EN EDUCACION INFANTIL
+179,Educación,LICENCIADO(A) EN FILOSOFIA Y LETRAS
+180,Educación,LICENCIADO EN LENGUAS EXTRANJERAS INGLES
+181,Educación,LICENCIADO EN TECNOLOGÍA E INFORMÁTICA
+182,Educación,LICENCIADO EN TEOLOGÍA
+183,Administración,PROFESIONAL EN MERCADEO
+184,Economía,PROFESIONAL EN NEGOCIOS INTERNACIONALES
+185,Psicología,PSICOLOGO
+186,Sociología trabajo social y afines,SOCIOLOGO
+187,Filosofía teología y afines,TEOLOGO
+188,Zootecnia,ZOOTECNISTA
+189,Administración,ADMINISTRADOR DE EMPRESAS
+190,Administración,ADMINISTRADOR DE EMPRESAS TURISTICAS Y HOTELERAS
+191,Antropología y  artes liberales,ANTROPOLOGO
+192,Bibliotecología otros de ciencias sociales y humanas,ARQUEOLOGO
+193,Sin clasificar,PROFESIONAL EN CIENCIA DE DATOS
+194,Comunicación social periodismo y afines,COMUNICADOR SOCIAL- PERIODISTA
+195,Artes plásticas visuales y afines,PROFESIONAL EN CONSERVACION Y RESTAURACION DE PATRIMONIO CULTURAL MUEBLE
+196,Contaduría pública,CONTADOR PUBLICO
+197,Derecho y afines,ABOGADO
+198,Economía,ECONOMISTA
+199,Filosofía teología y afines,FILOSOFO
+200,Administración,PROFESIONAL EN FINANZAS Y RELACIONES INTERNACIONALES
+201,Geografía historia,GEOGRAFO (A)
+202,Ciencia política relaciones internacionales,PROFESIONAL EN GOBIERNO Y RELACIONES INTERNACIONALES
+203,Geografía historia,HISTORIADOR
+204,Psicología,PSICOLOGO(A)
+205,Sociología trabajo social y afines,SOCIOLOGO
+206,Sociología trabajo social y afines,TRABAJADOR SOCIAL
+207,Administración,ADMINISTRADOR DE EMPRESAS
+208,Administración,ADMINISTRADOR DE EMPRESAS AGROPECUARIAS
+209,Agronomía,AGROECÓLOGO
+210,Arquitectura,ARQUITECTO
+211,Artes plásticas visuales y afines,MAESTRO EN ARTES PLASTICAS
+212,Economía,PROFESIONAL EN BANCA Y FINANZAS
+213,Biología microbiología y afines,BIOLOGO AMBIENTAL
+214,Biología microbiología y afines,BIOLOGO MARINO
+215,Ciencia política relaciones internacionales,POLITÓLOGO
+216,Comunicación social periodismo y afines,PROFESIONAL EN CINE Y TELEVISIÓN
+217,Economía,PROFESIONAL EN COMERCIO INTERNACIONAL Y FINANZAS
+218,Comunicación social periodismo y afines,COMUNICADOR SOCIAL- PERIODISTA
+219,Contaduría pública,CONTADOR PUBLICO
+220,Derecho y afines,ABOGADO
+221,Diseño,PROFESIONAL EN DISEÑO GRAFICO
+222,Diseño,DISEÑADOR INDUSTRIAL
+223,Artes plásticas visuales y afines,DISEÑADOR INTERACTIVO
+224,Diseño,DISEÑADOR Y GESTOR DE LA MODA
+225,Economía,ECONOMISTA
+226,Lenguas modernas literatura linguística y afines,PROFESIONAL EN ESTUDIOS LITERARIOS Y EDICIÓN
+227,Comunicación social periodismo y afines,PROFESIONAL EN FOTOGRAFÍA
+228,Geografía historia,HISTORIADOR DEL ARTE
+229,Ingeniería ambiental sanitaria y afines,INGENIERO AMBIENTAL
+230,Ingeniería agroindustrial alimentos y afines,INGENIERO DE ALIMENTOS
+231,Ingeniería de sistemas telemática y afines,INGENIERO (A) DE SISTEMAS
+232,Ingeniería industrial y afines,INGENIERO  EN AUTOMATIZACIÓN
+233,Ingeniería industrial y afines,INGENIERO EN ENERGÍA
+234,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+235,Ingeniería química y afines,INGENIERO QUIMICO
+236,Administración,PROFESIONAL EN MERCADEO
+237,Matemáticas estadística y afines,PROFESIONAL EN MODELADO Y SIMULACIÓN COMPUTACIONAL
+238,Artes plásticas visuales y afines,PROFESIONAL EN PUBLICIDAD
+239,Artes plásticas visuales y afines,REALIZADOR EN ANIMACIÓN
+240,Ciencia política relaciones internacionales,PROFESIONAL EN RELACIONES INTERNACIONALES
+241,Administración,ADMINISTRADOR DE EMPRESAS
+242,Biología microbiología y afines,BIÓLOGO
+243,Artes plásticas visuales y afines,MAESTRO EN CINEMATOGRAFÍA - MAESTRA EN CINEMATOGRAFÍA
+244,Comunicación social periodismo y afines,COMUNICADOR SOCIAL Y PERIODISTA
+245,Contaduría pública,CONTADOR PUBLICO
+246,Lenguas modernas literatura linguística y afines,PROFESIONAL EN CREACION LITERARIA
+247,Derecho y afines,ABOGADO
+248,Economía,ECONOMISTA
+249,Música,MAESTRO EN MÚSICA
+250,Ingeniería ambiental sanitaria y afines,INGENIERO AMBIENTAL
+251,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS
+252,Ingeniería electrónica telecomunicaciones y afines,INGENIERO ELECTRONICO
+253,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+254,Ingeniería mecánica y afines,INGENIERO MECANICO
+255,Matemáticas estadística y afines,MATEMATICO
+256,Administración,MERCADÓLOGO
+257,Publicidad y afines,PUBLICISTA
+258,Sociología trabajo social y afines,TRABAJADOR (A) SOCIAL
+259,Administración,ADMINISTRADOR DE EMPRESAS
+260,Administración,ADMINISTRADOR DE NEGOCIOS INTERNACIONALES
+261,Administración,ADMINISTRADOR EN LOGISTICA Y PRODUCCION
+262,Antropología y  artes liberales,ANTROPOLOGO
+263,Sin clasificar,ARQUITECTO / ARQUITECTA
+264,Sin clasificar,MAESTRO EN ARTES
+265,Antropología y  artes liberales,PROFESIONAL EN ARTES LIBERALES EN CIENCIAS SOCIALES
+266,Biología microbiología y afines,BIOLÓGO(A)
+267,Ciencia política relaciones internacionales,POLITÓLOGO(A) ¿ PROFESIONAL EN CIENCIA POLÍTICA Y GOBIERNO
+268,Sin clasificar,PROFESIONAL EN CIENCIAS DEL SISTEMA TIERRA
+269,Sin clasificar,CREATIVO / CREATIVA
+270,Sin clasificar,DISEÑADOR / DISEÑADORA
+271,Economía,ECONOMISTA
+272,Sin clasificar,ENFERMERA-ENFERMERO
+273,Sociología trabajo social y afines,PROFESIONAL EN FILOSOFIA
+274,Economía,PROFESIONAL EN FINANZAS Y COMERCIO INTERNACIONAL
+275,Terapias,FISOTERAPEUTA
+276,Terapias,FONOAUDIOLOGO(A)
+277,Arquitectura,PROFESIONAL EN GESTION Y DESARROLLO URBANOS
+278,Geografía historia,HISTORIADOR
+279,Sin clasificar,INGENIERA DE SISTEMAS ENERGÉTICOS / INGENIERO DE SISTEMAS ENERGÉTICOS
+280,Sin clasificar,INGENIERA ELECTRÓNICO / INGENIERO ELECTRÓNICA
+281,Sin clasificar,INGENIERO INDUSTRIAL / INGENIERA INDUSTRIAL
+282,Derecho y afines,ABOGADO
+283,Educación,LICENCIADO EN CIENCIAS SOCIALES
+284,Educación,LICENCIADO EN FILOSOFÍA
+285,Publicidad y afines,PROFESIONAL EN MARKETING Y NEGOCIOS DIGITALES
+286,Matemáticas estadística y afines,PROFESIONAL EN MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN
+287,Medicina,MEDICO
+288,Comunicación social periodismo y afines,PROFESIONAL EN PERIODISMO Y OPINION PUBLICA
+289,Sin clasificar,PROFESIONAL EN EMPRENDIMIENTO
+290,Psicología,PSICOLOGO
+291,Ciencia política relaciones internacionales,INTERNACIONALISTA
+292,Sociología trabajo social y afines,SOCIOLOGO(A)
+293,Música,MAESTRO EN TEATRO MUSICAL
+294,Terapias,TERAPEUTA OCUPACIONAL
+295,Administración,ADMINISTRADOR DE EMPRESAS
+296,Arquitectura,ARQUITECTO
+297,Economía,ECONOMISTA
+298,Matemáticas estadística y afines,PROFESIONAL UNIVERSITARIO EN ESTADISTICA Y CIENCIAS ACTUARIALES
+299,Ingeniería ambiental sanitaria y afines,INGENIERO AMBIENTAL
+300,Ingeniería de minas metalurgia y afines,INGENIERO DE PETROLEOS
+301,Sin clasificar,INGENIERO EN ENERGIAS
+302,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+303,Ingeniería mecánica y afines,INGENIERO MECANICO
+304,Sin clasificar,INGENIERO MECATRONICO
+305,Ingeniería química y afines,INGENIERO QUIMICO
+306,Economía,PROFESIONAL EN NEGOCIOS INTERNACIONALES
+307,Administración,ADMINISTRADOR DE EMPRESAS
+308,Ciencia política relaciones internacionales,POLITOLOGO
+309,Contaduría pública,CONTADOR PUBLICO
+310,Derecho y afines,ABOGADO
+311,Economía,ECONOMISTA
+312,Ingeniería mecánica y afines,INGENIERO AERONAUTICO
+313,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS
+314,Ingeniería electrónica telecomunicaciones y afines,INGENIERO DE SONIDO
+315,Ingeniería electrónica telecomunicaciones y afines,INGENIERO ELECTRONICO
+316,Ingeniería mecánica y afines,INGENIERO MECATRONICO
+317,Otras ingenierías,INGENIERO EN MULTIMEDIA
+318,Educación,LICENCIADO(A) EN EDUCACIÓN INFANTIL
+319,Educación,LICENCIADO EN FILOSOFIA
+320,Educación,LICENCIADO EN TEOLOGIA
+321,Lenguas modernas literatura linguística y afines,PROFESIONAL EN LENGUA INGLESA
+322,Filosofía teología y afines,TEÓLOGO/A
+323,Psicología,PSICOLOGO
+324,Administración,PROFESIONAL EN RELACIONES INTERNACIONALES
+325,Administración,ADMINISTRADOR DE EMPRESAS
+326,Arquitectura,ARQUITECTO
+327,Derecho y afines,ABOGADO
+328,Economía,ECONOMISTA
+329,Ingeniería civil y afines,INGENIERO CIVIL
+330,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS  Y COMPUTACIÓN
+331,Ingeniería electrónica telecomunicaciones y afines,INGENIERO ELECTRONICO Y DE TELECOMUNICACIONES
+332,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+333,Psicología,PSICOLOGO
+334,Administración,ADMINISTRADOR DE NEGOCIOS
+335,Administración,ADMINISTRADOR AMBIENTAL
+336,Administración,ADMINISTRADOR DE EMPRESAS
+337,Ingeniería de sistemas telemática y afines,INGENIERO EN CIENCIAS DE LA COMPUTACIÓN E INTELIGENCIA ARTIFICIAL
+338,Administración,PROFESIONAL EN COMERCIO INTERNACIONAL
+339,Sin clasificar,COMUNICADOR (A) SOCIAL Y PERIODISTA DIGITAL
+340,Sin clasificar,CONTADOR P¿BLICO DIGITAL TECH
+341,Derecho y afines,ABOGADO (A)
+342,Ingeniería de sistemas telemática y afines,DISEÑADOR (A) DIGITAL
+343,Economía,ECONOMISTA
+344,Filosofía teología y afines,PROFESIONAL EN FILOSOFIA Y HUMANIDADES
+345,Sin clasificar,PROFESIONAL EN FINANZAS FINTECH  Y COMERCIO EXTERIOR
+346,Administración,PROFESIONAL EN FINANZAS INTERNACIONALES
+347,Administración,PROFESIONAL EN GESTIÓN DEPORTIVA
+348,Sin clasificar,HISTORIADOR
+349,Ingeniería ambiental sanitaria y afines,INGENIERO AMBIENTAL
+350,Ingeniería electrónica telecomunicaciones y afines,INGENIERO ELECTRONICO
+351,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+352,Sin clasificar,PROFESIONAL EN INNOVACION Y TECNOLOGIA  ECONOMICA
+353,Sin clasificar,PROFESIONAL EN INVESTIGACIÓN CRIMINAL
+354,Sin clasificar,LICENCIADO DIGITAL EN HUMANIDADES CL¿SICAS Y LENGUA CASTELLANA
+355,Educación,LICENCIADO EN FILOSOFIA Y LETRAS
+356,Sin clasificar,LICENCIADO (A) EN PEDAGOGÍA DIGITAL PARA LA PRIMERA INFANCIA
+357,Administración,PROFESIONAL EN LOGÍSTICA EMPRESARIAL
+358,Sin clasificar,PROFESIONAL EN MARKETING INTEGRAL Y NEGOCIOS GLOBALES
+359,Matemáticas estadística y afines,MATEMATICO
+360,Música,MAESTRO EN MUSICA
+361,Biología microbiología y afines,BIOLOGO
+362,Sin clasificar,PROFESIONAL EN NEGOCIOS ESTRATÉGICOS DE MODA
+363,Ciencia política relaciones internacionales,PROFESIONAL EN POLÍTICA Y RELACIONES INTERNACIONALES
+364,Psicología,PSICÓLOGO
+365,Ciencia política relaciones internacionales,PROFESIONAL EN PUBLICIDAD INTERNACIONAL
+366,Artes representativas,MAESTRO EN TEATRO MUSICAL
+367,Administración,ADMINISTRADOR DE EMPRESAS
+368,Arquitectura,ARQUITECTO (A)
+369,Artes representativas,MAESTRO EN ARTE DRAMATICO
+370,Artes plásticas visuales y afines,MAESTRO EN ARTES PLÁSTICAS
+371,Ingeniería biomédica y afines,BIOINGENIERO
+372,Ciencia política relaciones internacionales,POLITÓLOGO (A)
+373,Contaduría pública,CONTADOR PÚBLICO
+374,Derecho y afines,ABOGADO (A)
+375,Diseño,DISEÑADOR DE COMUNICACIÓN
+376,Diseño,DISEÑADOR INDUSTRIAL
+377,Enfermería,ENFERMERA(O)
+378,Matemáticas estadística y afines,ESTADÍSTICO
+379,Filosofía teología y afines,FILOSOFO
+380,Sin clasificar,PROFESIONAL EN FINANZAS
+381,Música,MAESTRO EN MUSICA
+382,Ingeniería ambiental sanitaria y afines,INGENIERO AMBIENTAL
+383,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS
+384,Ingeniería electrónica telecomunicaciones y afines,INGENIERO ELECTRONICO
+385,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+386,Instrumentación quirúrgica,PROFESIONAL EN INSTRUMENTACIÓN QUIRÚRGICA
+387,Lenguas modernas literatura linguística y afines,INTÉRPRETE PROFESIONAL DE LA LENGUA DE SEÑAS COLOMBIANA
+388,Educación,LICENCIADO EN EN BILINGÜISMO CON ENFASIS EN LA ENSEÑANZA DEL INGLÉS
+389,Educación,LICENCIADO EN EDUCACIÓN INFANTIL
+390,Sin clasificar,PROFESIONAL EN MARKETING Y TRANSFORMACI¿N DIGITAL
+391,Matemáticas estadística y afines,MATEMÁTICO
+392,Medicina,MEDICO Y CIRUJANO
+393,Administración,PROFESIONAL EN NEGOCIOS INTERNACIONALES
+394,Odontología,ODONTOLOGO
+395,Optometría otros programas de ciencias de la salud,OPTOMETRA
+396,Psicología,PSICOLOGO
+397,Química y afines,QUÍMICO (A) FARMACÉUTICO (A)
+398,Administración,ADMINISTRADOR DE EMPRESAS
+399,Administración,ADMINISTRADOR DEPORTIVO
+400,Administración,ADMINISTRADOR LOGÍSTICO
+401,Administración,ADMINISTRADOR TURÍSTICO Y HOTELERO
+402,Derecho y afines,ABOGADO
+403,Comunicación social periodismo y afines,PROFESIONAL EN DIRECCION Y PRODUCCION DE CINE Y TELEVISION
+404,Enfermería,ENFERMERO (A)
+405,Terapias,PROFESIONAL EN FISIOTERAPIA
+406,Terapias,FONOAUDIOLOGO
+407,Ingeniería ambiental sanitaria y afines,INGENIERO AMBIENTAL
+408,Ingeniería biomédica y afines,INGENIERO BIOMEDICO
+409,Ingeniería de sistemas telemática y afines,INGENIERO DE SOFTWARE
+410,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+411,Sin clasificar,INGENIERO MECATRÓNICO
+412,Artes plásticas visuales y afines,PROFESIONAL EN PRODUCCIÓN Y COMUNICACIÓN TRANSMEDIA
+413,Otros programas asociados a bellas artes,PROFESIONAL EN ARTES GASTRONOMICAS
+414,Terapias,PROFESIONAL EN CIENCIAS DEL DEPORTE
+415,Sin clasificar,PROFESIONAL EN INVESTIGACI¿N CRIMINAL
+416,Psicología,PSICOLOGO (A)
+417,Psicología,PSICÓLOGO
+418,Terapias,TERAPEUTA CARDIORRESPIRATORIO
+419,Terapias,TERAPEUTA OCUPACIONAL
+420,Administración,ADMINISTRADOR DE EMPRESAS
+421,Administración,ADMINISTRADOR (A) DE EMPRESAS
+422,Arquitectura,ARQUITECTO
+423,Comunicación social periodismo y afines,COMUNICADOR SOCIAL Y PERIODISTA
+424,Contaduría pública,CONTADOR(A) PÚBLICO(A)
+425,Contaduría pública,CONTADOR PÚBLICO
+426,Derecho y afines,ABOGADO
+427,Economía,ECONOMISTA
+428,Ciencia política relaciones internacionales,PROFESIONAL EN GOBIERNO Y RELACIONES INTERNACIONALES
+429,Ingeniería civil y afines,INGENIERO(A) CIVIL
+430,Educación,LICENCIADO  (A)   EN  CIENCIAS  SOCIALES
+431,Educación,LICENCIADO  (A)   EN  FILOSOFÍA
+432,Educación,LICENCIADO (A) EN EDUCACIÓN INFANTIL
+433,Educación,LICENCIADO (A) EN HUMANIDADES Y LENGUA CASTELLANA
+434,Educación,LICENCIADO (A)  EN LENGUAS MODERNAS CON ÉNFASIS EN INGLÉS
+435,Educación,LICENCIADO (A) EN LITERATURA Y LENGUA CASTELLANA
+436,Educación,LICENCIADO (A)  EN MATEMÁTICAS
+437,Administración,ADMINISTRADOR (A) DE EMPRESAS
+438,Sin clasificar,ADMINISTRADOR (A) DE EMPRESAS AGROPECUARIAS
+439,Bibliotecología otros de ciencias sociales y humanas,PROFESIONAL EN SISTEMAS DE INFORMACION BIBLIOTECOLOGIA Y ARCHIVISTICA
+440,Arquitectura,ARQUITECTO
+441,Biología microbiología y afines,BIÓLOGO (A)
+442,Contaduría pública,CONTADOR (A) PUBLICO (A)
+443,Sin clasificar,DISE¿ADOR INDUSTRIAL
+444,Sin clasificar,DISE¿ADOR VISUAL
+445,Economía,ECONOMISTA
+446,Filosofía teología y afines,PROFESIONAL EN FILOSOFÍA Y LETRAS
+447,Economía,PROFESIONAL EN FINANZAS Y COMERCIO INTERNACIONAL
+448,Ingeniería ambiental sanitaria y afines,INGENIERO (A) AMBIENTAL Y SANITARIO (A)
+449,Ingeniería civil y afines,INGENIERO (A) CIVIL
+450,Ingeniería agroindustrial alimentos y afines,INGENIERO DE ALIMENTOS
+451,Ingeniería eléctrica y afines,INGENIERO(A) ELECTRICISTA
+452,Ingeniería electrónica telecomunicaciones y afines,INGENIERO (A) EN AUTOMATIZACION
+453,Ingeniería industrial y afines,INGENIERO (A) INDUSTRIAL
+454,Ingeniería química y afines,INGENIERO(A) QUÍMICO(A)
+455,Educación,LICENCIADO (A) EN CIENCIAS NATURALES Y EDUCACIÓN AMBIENTAL
+456,Educación,LICENCIADO EN EDUCACIÓN BÁSICA PRIMARIA
+457,Educación,LICENCIADO(A) EN EDUCACION RELIGIOSA
+458,Educación,LICENCIADO(A) EN ESPAÑOL Y LENGUAS EXTRANJERAS CON ÉNFASIS EN ...(ESPAÑOL INGLÉS O FRANCÉS)
+459,Educación,LICENCIADO (A) EN LITERATURA Y LENGUA CASTELLANA
+460,Medicina veterinaria,MEDICO(A) VETERINARIO(A)
+461,Economía,PROFESIONAL EN NEGOCIOS Y RELACIONES INTERNACIONALES
+462,Optometría otros programas de ciencias de la salud,OPTÓMETRA
+463,Sociología trabajo social y afines,TRABAJADOR (A) SOCIAL
+464,Arquitectura,URBANISTA
+465,Zootecnia,ZOOTECNISTA
+466,Administración,ADMINISTRADOR DE EMPRESAS
+467,Contaduría pública,CONTADOR PUBLICO
+468,Derecho y afines,ABOGADO
+469,Filosofía teología y afines,FILOSOFO
+470,Ingeniería ambiental sanitaria y afines,INGENIERO AMBIENTAL
+471,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS
+472,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+473,Ingeniería mecánica y afines,INGENIERO MECANICO
+474,Educación,LICENCIADO EN EDUCACIÓN FÍSICA RECREACIÓN Y DEPORTES
+475,Educación,LICENCIADO EN EDUCACIÓN INFANTIL
+476,Educación,LICENCIADO EN ESPAÑOL Y LENGUAS EXTRANJERAS
+477,Administración,PROFESIONAL EN NEGOCIOS INTERNACIONALES
+478,Administración,ADMINISTRADOR (A) DE EMPRESAS
+479,Antropología y  artes liberales,ANTROPOLOGO
+480,Arquitectura,ARQUITECTO
+481,Artes plásticas visuales y afines,MAESTRO EN ARTE
+482,Biología microbiología y afines,BIOLOGO
+483,Ciencia política relaciones internacionales,POLITOLOGO
+484,Contaduría pública,CONTADOR PÚBLICO INTERNACIONAL
+485,Derecho y afines,ABOGADO
+486,Diseño,DISEÑADOR
+487,Economía,ECONOMISTA
+488,Filosofía teología y afines,FILOSOFO
+489,Física,FISICO
+490,Geología otros programas de ciencias naturales,GEOCIENTIFICO
+491,Administración,PROFESIONAL EN GOBIERNO Y ASUNTOS PUBLICOS
+492,Geografía historia,HISTORIADOR
+493,Geografía historia,HISTORIADOR DEL ARTE
+494,Ingeniería ambiental sanitaria y afines,INGENIERO AMBIENTAL
+495,Otras ingenierías,INGENIERO BIOMEDICO
+496,Ingeniería civil y afines,INGENIERO CIVIL
+497,Ingeniería agroindustrial alimentos y afines,INGENIERO DE ALIMENTOS
+498,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS Y COMPUTACION
+499,Ingeniería eléctrica y afines,INGENIERO (A) ELECTRICO
+500,Ingeniería electrónica telecomunicaciones y afines,INGENIERO ELECTRONICO
+501,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+502,Ingeniería mecánica y afines,INGENIERO MECANICO
+503,Ingeniería química y afines,INGENIERO QUIMICO
+504,Lenguas modernas literatura linguística y afines,PROFESIONAL EN LENGUAS Y CULTURA
+505,Educación,LICENCIADO EN ARTES
+506,Educación,LICENCIADO EN BIOLOGIA
+507,Educación,LICENCIADO EN EDUCACIÓN INFANTIL
+508,Educación,LICENCIADO EN ESPAÑOL Y FILOLOGÍA
+509,Educación,LICENCIADO EN FILOSOFIA
+510,Educación,LICENCIADO EN FÍSICA
+511,Educación,LICENCIADO EN HISTORIA
+512,Educación,LICENCIADO EN MATEMÁTICAS
+513,Educación,LICENCIADO EN QUIMICA
+514,Lenguas modernas literatura linguística y afines,LITERATO (A)
+515,Matemáticas estadística y afines,MATEMATICO
+516,Medicina,MÉDICO
+517,Biología microbiología y afines,MICROBIOLOGO
+518,Música,MUSICO
+519,Comunicación social periodismo y afines,NARRADOR DIGITAL
+520,Psicología,PSICOLOGO
+521,Química y afines,QUIMICO(A)
+522,Administración,ADMINISTRADOR AMBIENTAL
+523,Administración,ADMINISTRADOR DE EMPRESAS
+524,Arquitectura,ARQUITECTO
+525,Contaduría pública,CONTADOR PUBLICO
+526,Diseño,DISEÑADOR DE ESPACIOS Y ESCENARIOS
+527,Diseño,DISEÑADOR GRAFICO
+528,Economía,ECONOMISTA
+529,Ingeniería civil y afines,INGENIERO CIVIL
+530,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS
+531,Ingeniería electrónica telecomunicaciones y afines,INGENIERO DE TELECOMUNICACIONES
+532,Ingeniería administrativa y afines,INGENIERO FINANCIERO
+533,Otras ingenierías,INGENIERO MECATRONICO
+534,Administración,PROFESIONAL EN MARKETING
+535,Economía,PROFESIONAL EN NEGOCIOS INTERNACIONALES
+536,Psicología,PSICOLOGO (A)
+537,Administración,ADMINISTRADOR DE EMPRESAS
+538,Economía,PROFESIONAL EN COMERCIO INTERNACIONAL
+539,Comunicación social periodismo y afines,COMUNICADOR SOCIAL
+540,Contaduría pública,CONTADOR PUBLICO
+541,Derecho y afines,ABOGADO (A)
+542,Economía,ECONOMISTA
+543,Ingeniería ambiental sanitaria y afines,INGENIERO (A) AMBIENTAL
+544,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS
+545,Ingeniería electrónica telecomunicaciones y afines,INGENIERO DE TELECOMUNICACIONES
+546,Ingeniería electrónica telecomunicaciones y afines,INGENIERO ELECTRONICO
+547,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+548,Administración,PROFESIONAL EN MERCADEO
+549,Odontología,ODONTOLOGO
+550,Psicología,PSICOLOGO
+551,Administración,ADMINISTRADOR DE EMPRESAS
+552,Arquitectura,ARQUITECTO
+553,Artes plásticas visuales y afines,MAESTRO EN ARTES PLÁSTICAS Y VISUALES
+554,Química y afines,BIOQUIMICO
+555,Biología microbiología y afines,BIOTECNÓLOGO
+556,Economía,PROFESIONAL EN COMERCIO INTERNACIONAL
+557,Contaduría pública,CONTADOR PUBLICO
+558,Derecho y afines,ABOGADO
+559,Diseño,DISEÑADOR GRÁFICO
+560,Diseño,DISE¿ADOR INDUSTRIAL
+561,Economía,ECONOMISTA
+562,Enfermería,ENFERMERA (O)
+563,Administración,PROFESIONAL EN HOTELERIA Y TURISMO ECOLOGICO
+564,Ingeniería ambiental sanitaria y afines,INGENIERO AMBIENTAL
+565,Ingeniería biomédica y afines,INGENIERO BIOMEDICO
+566,Ingeniería civil y afines,INGENIERO CIVIL
+567,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS Y COMPUTACION
+568,Ingeniería de sistemas telemática y afines,INGENIERO DE SOFTWARE
+569,Sin clasificar,INGENIERO ELECTROMECÀNICO
+570,Ingeniería electrónica telecomunicaciones y afines,INGENIERO ELECTRÓNICO
+571,Ingeniería electrónica telecomunicaciones y afines,INGENIERO EN CONTROL Y AUTOMATIZACION INDUSTRIAL
+572,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+573,Ingeniería mecánica y afines,INGENIERO MECANICO
+574,Ingeniería electrónica telecomunicaciones y afines,INGENIERO MECATRONICO
+575,Educación,LICENCIADO(A) EN ARTES ESCENICAS
+576,Sin clasificar,LICENCIADO EN CIENCIAS NATURALES Y EDUCACIÒN AMBIENTAL
+577,Educación,LICENCIADO(A) EN CIENCIAS SOCIALES
+578,Sin clasificar,LICENCIADO EN EDUCACIÓN INFANTIL
+579,Educación,LICENCIADO EN ESPAÑOL E INGLÉS
+580,Educación,LICENCIADO EN MATEMATICAS
+581,Educación,LICENCIADO EN MATEMATICAS E INFORMATICA
+582,Medicina,MEDICO
+583,Medicina veterinaria,MEDICO VETERINARIO
+584,Música,MAESTRO EN MUSICA
+585,Odontología,ODONTOLOGO
+586,Optometría otros programas de ciencias de la salud,OPTÓMETRA
+587,Sin clasificar,MAESTRO EN  DANZA TEATRO
+588,Psicología,PSICOLOGO (A)
+589,Psicología,PSICOLOGO
+590,Administración,ADMINISTRADOR DE EMPRESAS
+591,Biología microbiología y afines,PROFESIONAL UNIVERSITARIO EN CIENCIAS AMBIENTALES
+592,Deportes educación física y recreación,PROFESIONAL EN CIENCIAS DEL DEPORTE
+593,Contaduría pública,CONTADOR PUBLICO
+594,Derecho y afines,ABOGADO (A)
+595,Enfermería,ENFERMERO(A)
+596,Administración,PROFESIONAL EN FINANZAS
+597,Ingeniería agronómica pecuaria y afines,INGENIERO AGRONOMO
+598,Ingeniería administrativa y afines,INGENIERO COMERCIAL
+599,Ingeniería ambiental sanitaria y afines,INGENIERO GEÓGRAFO Y AMBIENTAL
+600,Medicina,MEDICO
+601,Medicina veterinaria,MEDICO VETERINARIO
+602,Medicina veterinaria,MEDICO VETERINARIO  ZOOTECNISTA
+603,Administración,PROFESIONAL UNIVERSITARIO EN MERCADEO
+604,Administración,PROFESIONAL EN NEGOCIOS INTERNACIONALES
+605,Química y afines,QUÍMICO
+606,Química y afines,QUÍMICO FARMACÉUTICO
+607,Zootecnia,ZOOTECNISTA
+608,Administración,ADMINISTRADOR DE EMPRESAS
+609,Salud pública,ADMINISTRADOR EN SALUD
+610,Artes plásticas visuales y afines,MAESTRO EN ARTES VISUALES
+611,Ciencia política relaciones internacionales,POLITÓLOGO(A)
+612,Comunicación social periodismo y afines,COMUNICADOR SOCIAL
+613,Contaduría pública,CONTADOR PÚBLICO
+614,Sin clasificar,ABOGADA(O)
+615,Diseño,DISEÑADOR INDUSTRIAL
+616,Economía,ECONOMISTA
+617,Filosofía teología y afines,FILOSOFO
+618,Sociología trabajo social y afines,PROFESIONAL EN GESTIÓN DEPORTIVA
+619,Ingeniería agroindustrial alimentos y afines,INGENIERO DE ALIMENTOS
+620,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS
+621,Ingeniería electrónica telecomunicaciones y afines,INGENIERO DE TELECOMUNICACIONES
+622,Ingeniería electrónica telecomunicaciones y afines,INGENIERO ELECTRONICO
+623,Ingeniería industrial y afines,INGENIERO INDUSTRIAL.
+624,Ingeniería de sistemas telemática y afines,INGENIERO MULTIMEDIA
+625,Educación,LICENCIADO(A) EN LENGUAS EXTRANJERAS CON ÉNFASIS EN INGLÉS
+626,Educación,LICENCIADO(A) EN MATEMÁTICAS
+627,Educación,LICENCIADO (A) EN PEDAGOGÍA INFANTIL.
+628,Música,MAESTRO EN MUSICA
+629,Sin clasificar,PROFESIONAL EN NEGOCIOS INTERNACIONALES
+630,Psicología,PSICOLOGO
+631,Sociología trabajo social y afines,SOCIÓLOGO
+632,Zootecnia,ZOOTECNISTA
+633,Administración,ADMINISTRADOR PUBLICO
+634,Administración,ADMINISTRADOR DE SERVICIOS DE SALUD
+635,Enfermería,ENFERMERA(O)
+636,Terapias,FISIOTERAPEUTA
+637,Instrumentación quirúrgica,INSTRUMENTADOR QUIRURGICO
+638,Medicina,MEDICO
+639,Psicología,PSICÓLOGO
+640,Administración,ADMINISTRADOR DE EMPRESAS
+641,Administración,ADMINISTRADOR DE NEGOCIOS INTERNACIONALES
+642,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS
+643,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+644,Administración,PROFESIONAL EN MERCADEO
+645,Matemáticas estadística y afines,MATEMATICO
+646,Psicología,PSICOLOGO
+647,Administración,ADMINISTRADOR DE EMPRESAS
+648,Sin clasificar,ADMINISTRADOR LOG¿STICO
+649,Administración,PROFESIONAL EN ADMINISTRACION TURISTICA Y HOTELERA
+650,Sin clasificar,PROFESIONAL EN CIENCIA POLÍTICA Y GOBIERNO
+651,Comunicación social periodismo y afines,COMUNICADOR SOCIAL- PERIODISTA
+652,Contaduría pública,CONTADOR PUBLICO
+653,Derecho y afines,ABOGADO
+654,Diseño,DISEÑADOR GRAFICO
+655,Sin clasificar,DISE¿ADOR HIPERMEDIA
+656,Economía,ECONOMISTA
+657,Matemáticas estadística y afines,PROFESIONAL EN ESTADÍSTICA
+658,Ingeniería mecánica y afines,INGENIERO AERONAUTICO
+659,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS
+660,Ingeniería electrónica telecomunicaciones y afines,INGENIERO ELECTRONICO
+661,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+662,Ingeniería mecánica y afines,INGENIERO MECANICO
+663,Sin clasificar,INGENIERO EN MECATRÓNICA
+664,Educación,LICENCIADO EN EDUCACION ESPECIAL
+665,Educación,LICENCIADO EN EN EDUCACIÓN INFANTIL
+666,Psicología,PSICOLOGO
+667,Publicidad y afines,PROFESIONAL EN PUBLICIDAD Y MERCADEO
+668,Sin clasificar,ADMINISTRADOR DE AGRONEGOCIOS
+669,Administración,ADMINISTRADOR DE EMPRESAS
+670,Administración,PROFESIONAL EN ADMINISTRACIÓN HOTELERA Y GASTRONÓMICA
+671,Administración,ADMINISTRADOR PÚBLICO
+672,Artes representativas,MAESTRO EN ARTES DE LA ESCENA
+673,Sin clasificar,COMUNICADOR SOCIAL
+674,Comunicación social periodismo y afines,COMUNICADOR SOCIAL - PERIODISTA
+675,Contaduría pública,CONTADOR PUBLICO
+676,Contaduría pública,CONTADOR PÚBLICO
+677,Derecho y afines,ABOGADO
+678,Diseño,PROFESIONAL EN DISEÑO DE MODAS
+679,Diseño,PROFESIONAL EN DISEÑO GRÁFICO
+680,Diseño,DISEÑADOR INDUSTRIAL
+681,Economía,ECONOMISTA
+682,Administración,PROFESIONAL EN FINANZAS
+683,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS
+684,Ingeniería de sistemas telemática y afines,INGENIERO DE SOFTWARE
+685,Sin clasificar,PROFESIONAL EN INGENIER¿A Y CIENCIA DE DATOS
+686,Ingeniería electrónica telecomunicaciones y afines,INGENIERO EN TELECOMUNICACIONES
+687,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+688,Educación,LICENCIADO EN CIENCIAS SOCIALES
+689,Educación,LICENCIADO EN EDUCACIÓN PARA LA PRIMERA INFANCIA
+690,Educación,LICENCIADO EN MATEMÁTICAS Y COMPUTACIÓN
+691,Matemáticas estadística y afines,MATEMATICO
+692,Administración,PROFESIONAL EN MERCADEO Y PUBLICIDAD
+693,Economía,PROFESIONAL EN NEGOCIOS INTERNACIONALES
+694,Sociología trabajo social y afines,PROFESIONAL EN GESTIÓN DE LA SEGURIDAD Y LA SALUD LABORAL
+695,Comunicación social periodismo y afines,PROFESIONAL EN MEDIOS AUDIOVISUALES
+696,Psicología,PSICOLOGO
+697,Sin clasificar,PSIC¿LOGO
+698,Administración,ADMINISTRADOR DE EMPRESAS
+699,Administración,PROFESIONAL EN ADMINISTRACION DE MERCADEO
+700,Sin clasificar,COMUNICADOR SOCIAL
+701,Contaduría pública,CONTADOR PUBLICO
+702,Contaduría pública,CONTADOR (A) PÚBLICO (A)
+703,Derecho y afines,ABOGADO(A)
+704,Diseño,PROFESIONAL EN DISEÑO DE MODAS
+705,Diseño,PROFESIONAL EN DISEÑO GRAFICO
+706,Sin clasificar,ECONOMISTA
+707,Enfermería,ENFERMERO (A)
+708,Administración,PROFESIONAL EN FINANZAS Y NEGOCIOS INTERNACIONALES
+709,Ingeniería de minas metalurgia y afines,INGENIERO DE MINAS
+710,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS
+711,Ingeniería química y afines,INGENIERÍA INDUSTRIAL
+712,Ingeniería industrial y afines,INGENIERO (A) INDUSTRIAL
+713,Instrumentación quirúrgica,INSTRUMENTADOR QUIRURGICO PROFESIONAL
+714,Educación,LICENCIADO EN CIENCIAS SOCIALES
+715,Sin clasificar,LICENCIADO EN EDUCACION INFANTIL
+716,Educación,LICENCIADO EN EDUCACIÓN INFANTIL
+717,Administración,PROFESIONAL EN MERCADEO Y PUBLICIDAD
+718,Administración,PROFESIONAL EN NEGOCIOS INTERNACIONALES
+719,Optometría otros programas de ciencias de la salud,OPTOMETRA
+720,Deportes educación física y recreación,PROFESIONAL EN ENTRENAMIENTO DEPORTIVO
+721,Otros programas asociados a bellas artes,PROFESIONAL  EN GASTRONOMÍA Y CULINARIA
+722,Psicología,PSICOLOGO
+723,Psicología,PSICÓLOGO (A)
+724,Terapias,TERAPEUTA RESPIRATORIO
+725,Administración,ADMINISTRADOR DE EMPRESAS
+726,Enfermería,ENFERMERO(A)
+727,Medicina,MÉDICO
+728,Psicología,PSICÓLOGO
+729,Administración,ADMINISTRADOR DE EMPRESAS
+730,Economía,ECONOMISTA
+731,Ingeniería ambiental sanitaria y afines,INGENIERO AMBIENTAL
+732,Ingeniería biomédica y afines,INGENIERO BIOMEDICO
+733,Ingeniería civil y afines,INGENIERO CIVIL
+734,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS
+735,Ingeniería eléctrica y afines,INGENIERO ELECTRICISTA
+736,Ingeniería electrónica telecomunicaciones y afines,INGENIERO ELECTRONICO
+737,Sin clasificar,INGENIERO ESTADÍSTICO
+738,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+739,Ingeniería mecánica y afines,INGENIERO MECÁNICO
+740,Matemáticas estadística y afines,MATEMATICO
+741,Administración,ADMINISTRADOR DE EMPRESAS
+742,Administración,ADMINISTRADOR DE EMPRESAS GLOBALES
+743,Economía,PROFESIONAL EN COMERCIO Y NEGOCIOS GLOBALES
+744,Comunicación social periodismo y afines,PROFESIONAL EN COMUNICACIÓN
+745,Contaduría pública,CONTADOR PÚBLICO
+746,Economía,ECONOMISTA
+747,Administración,PROFESIONAL EN ESTUDIOS Y GESTION CULTURAL
+748,Ciencia política relaciones internacionales,PROFESIONAL EN HISTORIA Y GESTIÓN POLÍTICA
+749,Ingeniería ambiental sanitaria y afines,INGENIERO AMBIENTAL
+750,Ingeniería industrial y afines,INGENIERO DE PRODUCCION
+751,Otras ingenierías,INGENIERO DE PRODUCCIÓN
+752,Ingeniería de sistemas telemática y afines,INGENIERO (A) DE SISTEMAS
+753,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS
+754,Ingeniería eléctrica y afines,INGENIERO EN ENERGÍAS
+755,Ingeniería química y afines,INGENIERO INDUSTRIAL
+756,Ingeniería química y afines,INGENIERO(A) INDUSTRIAL
+757,Ingeniería electrónica telecomunicaciones y afines,INGENIERO EN MECATRÓNICA
+758,Ingeniería química y afines,INGENIERO QUÍMICO
+759,Lenguas modernas literatura linguística y afines,PROFESIONAL EN LENGUAS MODERNAS
+760,Administración,PROFESIONAL EN MARKETING
+761,Administración,PROFESIONAL EN MERCADEO
+762,Administración,PROFESIONAL EN MERCADEO Y ESTRATEGIA COMERCIAL
+763,Economía,PROFESIONAL EN NEGOCIOS INTERNACIONALES
+764,Psicología,PSICÓLOGO
+765,Administración,ADMINISTRADOR DE EMPRESAS
+766,Administración,ADMINISTRADOR DE EMPRESAS TURÍSTICAS Y HOTELERAS
+767,Salud pública,ADMINISTRADOR EN SEGURIDAD Y SALUD EN EL TRABAJO
+768,Administración,ADMINISTRADOR (A) EN SEGURIDAD Y SALUD EN EL TRABAJO
+769,Administración,ADMINISTRADOR FINANCIERO
+770,Filosofía teología y afines,PROFESIONAL EN CIENCIAS BÍBLICAS
+771,Comunicación social periodismo y afines,COMUNICADOR SOCIAL
+772,Comunicación social periodismo y afines,COMUNICADOR SOCIAL- PERIODISTA
+773,Comunicación social periodismo y afines,COMUNICADOR(A) VISUAL
+774,Contaduría pública,CONTADOR PÚBLICO
+775,Filosofía teología y afines,PROFESIONAL EN FILOSOFIA
+776,Ingeniería agrícola forestal y afines,INGENIERO EN AGROECOLOGIA
+777,Ingeniería civil y afines,INGENIERO CIVIL
+778,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS
+779,Ingeniería industrial y afines,INGENIERO (A) INDUSTRIAL
+780,Sin clasificar,LICENCIADA (O) EN CIENCIAS NATURALES Y EDUCACIÓN AMBIENTAL
+781,Educación,LICENCIADO(A) EN EDUCACION  ARTISTICA
+782,Educación,LICENCIADO EN EDUCACIÓN ARTÍSTICA
+783,Educación,LICENCIADO EN EDUCACIÓN FÍSICA
+784,Educación,LICENCIADO(A) EN EDUCACIÓN FÍSICA RECREACIÓN Y DEPORTE
+785,Educación,LICENCIADO/A EN EDUCACIÓN INFANTIL
+786,Educación,LICENCIADO EN EDUCACIÓN INFANTIL
+787,Educación,LICENCIADO EN FILOSOFIA
+788,Educación,LICENCIADO (A)  HUMANIDADES Y LENGUA CASTELLANA
+789,Educación,LICENCIADO(A) EN INFORMATICA
+790,Educación,Licenciado en Lenguas Extranjeras con Énfasis en Inglés
+791,Sin clasificar,PROFESIONAL EN MERCADEO
+792,Psicología,PSICÓLOGO
+793,Sociología trabajo social y afines,TRABAJADOR SOCIAL
+794,Sociología trabajo social y afines,TRABAJADOR(A) SOCIAL
+795,Sin clasificar,ADMINISTRADOR DE EMPRESAS
+796,Administración,ADMINISTRADOR FINANCIERO
+797,Administración,ADMINISTRADOR LOGÍSTICO
+798,Sin clasificar,COMUNICADOR DIGITAL
+799,Contaduría pública,CONTADOR PUBLICO
+800,Contaduría pública,CONTADOR PÚBLICO
+801,Economía,ECONOMISTA
+802,Terapias,FISIOTERAPEUTA
+803,Terapias,FONOAUDIOLOGO
+804,Ingeniería de sistemas telemática y afines,INGENIERO DE SOFTWARE
+805,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
+806,Educación,LICENCIADO EN EDUCACIÓN BÁSICA PRIMARIA
+807,Educación,LICENCIADO EN EDUCACION ESPECIAL
+808,Educación,LICENCIADO EN EDUCACIÓN ESPECIAL
+809,Sin clasificar,BOGOT¿
+810,Educación,LICENCIADO EN EDUCACIÓN INFANTIL
+811,Educación,LICENCIADO(A) EN EDUCACIÓN INFANTIL
+812,Educación,LICENCIADO EN HUMANIDADES Y LENGUA CASTELLANA
+813,Sin clasificar,LICENCIADO/A EN MATEMATICAS
+814,Administración,PROFESIONAL EN MARKETING Y NEGOCIOS INTERNACIONALES
+815,Administración,PROFESIONAL EN NEGOCIOS INTERNACIONALES
+816,Psicología,PSICOLOGO
+817,Psicología,PSICÓLOGO
