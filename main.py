@@ -171,7 +171,5 @@ def get_role(role):
     native_data = convert_numpy_to_native(respuesta)
     respuesta_compatible = jsonable_encoder(native_data)
     respuesta_compatible.sort(key=lambda x: -x["afinidad"])
-    print('respuesta_compatible', respuesta_compatible)
     sanitized_data = sanitize_data(respuesta_compatible)
-    print('sanitized_data', sanitized_data)
     return {"response":sanitized_data}
