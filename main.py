@@ -155,4 +155,6 @@ def get_role(role):
     native_data = convert_numpy_to_native(respuesta)
     respuesta_compatible = jsonable_encoder(native_data)
     respuesta_compatible.sort(key=lambda x: -x["afinidad"])
+    print('respuesta_compatible', respuesta_compatible)
+
     return {"response":respuesta_compatible}
