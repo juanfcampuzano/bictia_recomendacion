@@ -10,6 +10,9 @@ import pandas as pd
 from fastapi import FastAPI
 from fastapi.encoders import jsonable_encoder
 import numpy as np
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class MajorRecommender:
 
@@ -24,12 +27,12 @@ class MajorRecommender:
         loader = CSVLoader("CarrerasIndice.csv", encoding='utf-8')
         docs = loader.load()
 
-        embeddings = OpenAIEmbeddings()
+        embeddings = OpenAIEmbeddings(openai_api_key= os.getenv('OPENAI_API_KEY'))
         db = DocArrayInMemorySearch.from_documents(
         docs, 
         embeddings
         )
-        self.llm = ChatOpenAI(temperature = 0.0)
+        self.llm = ChatOpenAI(temperature = 0.0, openai_api_key= os.getenv('OPENAI_API_KEY'))
         retriever = db.as_retriever(search_kwargs={"k": 15})
 
         self.qa_stuff = RetrievalQA.from_chain_type(
