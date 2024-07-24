@@ -82,7 +82,7 @@ class MajorRecommender:
             
             motivo: ¿Por qué me das este porcentaje de afinidad para estudiar ese programa? No menciones directamente el ranking, en caso de que sea una institucion buena, resaltalo. Considera muy buena entre el raking 1 hasta el 15. Si la institucion no tiene un raking bueno, no lo menciones.\
 
-            Formatea la salida como un diccionario, no como un json.
+            Formatea la salida como un diccionario, no como un json, las keys deben ser id, afinidad y motivo.
             """
 
         prompt_template = ChatPromptTemplate.from_template(template_recommendation_percentage)  
