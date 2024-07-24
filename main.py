@@ -11,6 +11,8 @@ from fastapi import FastAPI
 from fastapi.encoders import jsonable_encoder
 import numpy as np
 from dotenv import load_dotenv
+from typing import List, Dict, Union
+import math
 
 load_dotenv()
 
@@ -141,6 +143,11 @@ def convert_numpy_to_native(data):
         return [convert_numpy_to_native(item) for item in data]
     return data
     
+def sanitize_data(data: List[Dict[str, Union[int, float, str]]]) -> List[Dict[str, Union[int, float, str]]]:
+    for item in data:
+        if isinstance(item.get('creditos'), float) and math.isnan(item['creditos']):
+            item['creditos'] = None
+    return data
 
 app = FastAPI()
 recomendador = MajorRecommender()
@@ -156,5 +163,6 @@ def get_role(role):
     respuesta_compatible = jsonable_encoder(native_data)
     respuesta_compatible.sort(key=lambda x: -x["afinidad"])
     print('respuesta_compatible', respuesta_compatible)
-
-    return {"response":respuesta_compatible}
+    sanitized_data = sanitize_data(respuesta_compatible)
+    print('sanitized_data', sanitized_data)
+    return {"response":sanitized_data}
