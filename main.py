@@ -116,6 +116,7 @@ class MajorRecommender:
         final_response['titulo'] = dict_full_data_candidate['Titulo egresado']
         final_response['url'] = dict_full_data_candidate['Link']
         final_response['image_url'] = dict_full_data_candidate['image_url']
+        final_response['precio'] = dict_full_data_candidate['precio']
 
         return final_response
 
