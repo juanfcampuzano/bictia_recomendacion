@@ -14,6 +14,14 @@ import numpy as np
 from dotenv import load_dotenv
 from typing import List, Dict, Union
 import math
+from pydantic import BaseModel
+
+
+class FiltroRequest(BaseModel):
+    ranking_maximo: int
+    origen: str 
+    precio_maximo: str
+    metodologia:str
 
 load_dotenv()
 
@@ -22,43 +30,62 @@ class MajorRecommender:
     def __init__(self):
         self.qa_stuff = None
         self.llm = None
-        self.prepare_qa_chain()
         self.df = pd.read_csv('ProgramasCompletos.csv')
-        
-    def prepare_qa_chain(self):
 
-        loader = CSVLoader("CarrerasIndice.csv", encoding='utf-8')
+
+    def prepare_qa_chain(self, filtro):
+
+        loader = CSVLoader("ProgramasCompletos.csv", encoding='utf-8', 
+                           metadata_columns=['Ranking institución educativa', 'Origen institución educativa', 'Metodología programa educativo', 'precio'])
         docs = loader.load()
+        self.llm = ChatOpenAI(temperature = 0.0, openai_api_key= os.getenv('OPENAI_API_KEY'))
 
         embeddings = OpenAIEmbeddings(openai_api_key= os.getenv('OPENAI_API_KEY'))
-        db = DocArrayInMemorySearch.from_documents(
-        docs, 
-        embeddings
-        )
-        self.llm = ChatOpenAI(temperature = 0.0, openai_api_key= os.getenv('OPENAI_API_KEY'))
-        retriever = db.as_retriever(search_kwargs={"k": 15})
 
-        self.qa_stuff = RetrievalQA.from_chain_type(
+        filtered_docs = []
+
+        for doc in docs:
+            if (filtro['ranking_maximo'] != 0 and int(doc.metadata.get('Ranking institución educativa')) >= filtro['ranking_maximo']):
+                continue
+            if (filtro['origen'] != "" and doc.metadata.get('Origen institución educativa') != filtro['origen']):
+                continue
+            if (filtro['precio_maximo'] != "" and len(doc.metadata.get('precio')) > len(filtro['precio_maximo'])):
+                continue
+            if (filtro['metodologia'] != "" and doc.metadata.get('Metodología programa educativo') != filtro['metodologia']):
+                continue
+
+            filtered_docs.append(doc)
+
+        db = DocArrayInMemorySearch.from_documents(filtered_docs, embeddings)
+
+        retriever = db.as_retriever(search_kwargs={"k": 15, "filter": filtro})
+
+        qa_stuff = RetrievalQA.from_chain_type(
         llm=self.llm, 
         chain_type="stuff", 
         retriever=retriever, 
         verbose=True
         )
 
-    def get_chain_response(self, role):
+        return qa_stuff
+
+    def get_chain_response(self, role, filtro = {}):
+
+        qa_stuff = self.prepare_qa_chain(filtro)
+
         query =  f"Listame las carreras que me permitirán desempeñarme como un {role}. Si no tienes carreras aropiadas no inventes respuestas, solo retorna un punto. En caso de que hayan carreras para ser {role}, tienes que incluir el ID y el TITULO\
         en markdown y resume cada uno. Intenta retornar la mayor cantidad de carreras relacionadas."
-        response = self.qa_stuff.run(query)
+        response = qa_stuff.run(query)
 
 
         review_template = """\
         Para el siguiente texto que está en formato markdown y contiene información de carreras, extrae la siguiente información para cada carrera:
         No inventes carreras nuevas si no tienes en el texto.
 
-        id: ¿Cuál es el id de la carrera? \
-        Si esta información no se encuentra, el valor debe ser -1.
+        id: ¿Cuál es el id en formato de entero de la carrera? \
+        Si esta información no se encuentra, el valor debe ser 0.
 
-        Formatea la salida como lista de ids. De una forma similar a esta '[1, 123, 523]'
+        Formatea la salida como lista de ids en formato de entero. De una forma similar a esta '[1, 3, 523, 27]' 
 
         texto: {text}
         """
@@ -120,10 +147,10 @@ class MajorRecommender:
 
         return final_response
 
-    def get_recommendations(self, role):
+    def get_recommendations(self, role, filtro):
         response = []
 
-        carreras_candidatos = self.get_chain_response(role)
+        carreras_candidatos = self.get_chain_response(role, filtro)
 
 
         for candidato in carreras_candidatos:
@@ -167,9 +194,11 @@ recomendador = MajorRecommender()
 def test():
     return {"response":"test"}
 
-@app.get("/api/{role}")
-def get_role(role):
-    respuesta = recomendador.get_recommendations(role)
+@app.post("/api/{role}")
+def get_role(role:str, filtro_request: FiltroRequest):
+
+    filtro = dict(filtro_request)
+    respuesta = recomendador.get_recommendations(role, filtro)
     native_data = convert_numpy_to_native(respuesta)
     respuesta_compatible = jsonable_encoder(native_data)
     respuesta_compatible.sort(key=lambda x: -x["afinidad"])
