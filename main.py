@@ -59,7 +59,7 @@ class MajorRecommender:
 
         db = DocArrayInMemorySearch.from_documents(filtered_docs, embeddings)
 
-        retriever = db.as_retriever(search_kwargs={"k": 15, "filter": filtro})
+        retriever = db.as_retriever(max_tokens_limit=10000, search_kwargs={"k": 15})
 
         qa_stuff = RetrievalQA.from_chain_type(
         llm=self.llm, 
@@ -179,6 +179,11 @@ def sanitize_data(data: List[Dict[str, Union[int, float, str]]]) -> List[Dict[st
         if isinstance(item.get('creditos'), float) and math.isnan(item['creditos']):
             item['creditos'] = None
     return data
+
+def normalize_query(query):
+    reemplazos = {'project manager':'gestor de proyectos'}
+    normalized_query = ""
+    return normalized_query
 
 app = FastAPI()
 app.add_middleware(
