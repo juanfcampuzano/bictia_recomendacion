@@ -18,6 +18,7 @@ from pydantic import BaseModel
 
 
 class FiltroRequest(BaseModel):
+    role: str
     ranking_maximo: int
     origen: str 
     precio_maximo: str
@@ -43,6 +44,7 @@ class MajorRecommender:
         embeddings = OpenAIEmbeddings(openai_api_key= os.environ.get('OPENAI_API_KEY'))
 
         filtered_docs = []
+
 
         for doc in docs:
             if ('ranking_maximo' in filtro and filtro['ranking_maximo'] != 0 and int(doc.metadata.get('Ranking institución educativa')) >= filtro['ranking_maximo']):
@@ -200,9 +202,10 @@ def test():
     return {"response":"test"}
 
 @app.post("/api/{role}")
-def get_role_post(role:str, filtro_request: FiltroRequest):
+def get_role_post(filtro_request: FiltroRequest):
 
     filtro = dict(filtro_request)
+    role = filtro['role']
     respuesta = recomendador.get_recommendations(role, filtro)
     native_data = convert_numpy_to_native(respuesta)
     respuesta_compatible = jsonable_encoder(native_data)
@@ -211,9 +214,11 @@ def get_role_post(role:str, filtro_request: FiltroRequest):
     return {"response":sanitized_data}
 
 @app.get("/api/{role}")
-def get_role_get(role:str, filtro_request: FiltroRequest):
+def get_role_get(filtro_request: FiltroRequest):
 
     filtro = dict(filtro_request)
+
+    role = filtro['role']
     respuesta = recomendador.get_recommendations(role, filtro)
     native_data = convert_numpy_to_native(respuesta)
     respuesta_compatible = jsonable_encoder(native_data)
