@@ -46,13 +46,13 @@ class MajorRecommender:
         filtered_docs = []
 
         for doc in docs:
-            if (filtro['ranking_maximo'] != 0 and int(doc.metadata.get('Ranking institución educativa')) >= filtro['ranking_maximo']):
+            if ('ranking_maximo' in filtro and filtro['ranking_maximo'] != 0 and int(doc.metadata.get('Ranking institución educativa')) >= filtro['ranking_maximo']):
                 continue
-            if (filtro['origen'] != "" and doc.metadata.get('Origen institución educativa') != filtro['origen']):
+            if ('origen' in filtro and filtro['origen'] != "" and doc.metadata.get('Origen institución educativa') != filtro['origen']):
                 continue
-            if (filtro['precio_maximo'] != "" and len(doc.metadata.get('precio')) > len(filtro['precio_maximo'])):
+            if ('precio_maximo' in filtro and filtro['precio_maximo'] != "" and len(doc.metadata.get('precio')) > len(filtro['precio_maximo'])):
                 continue
-            if (filtro['metodologia'] != "" and doc.metadata.get('Metodología programa educativo') != filtro['metodologia']):
+            if ('metodologia' in filtro and filtro['metodologia'] != "" and doc.metadata.get('Metodología programa educativo') != filtro['metodologia']):
                 continue
 
             filtered_docs.append(doc)
