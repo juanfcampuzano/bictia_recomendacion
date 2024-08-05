@@ -23,6 +23,7 @@ class FiltroRequest(BaseModel):
     precio_maximo: str
     metodologia:str
 
+
 load_dotenv()
 
 class MajorRecommender:
@@ -38,9 +39,9 @@ class MajorRecommender:
         loader = CSVLoader("ProgramasCompletos.csv", encoding='utf-8', 
                            metadata_columns=['Ranking institución educativa', 'Origen institución educativa', 'Metodología programa educativo', 'precio'])
         docs = loader.load()
-        self.llm = ChatOpenAI(temperature = 0.0, openai_api_key= os.getenv('OPENAI_API_KEY'))
+        self.llm = ChatOpenAI(temperature = 0.0, openai_api_key= os.environ.get('OPENAI_API_KEY'))
 
-        embeddings = OpenAIEmbeddings(openai_api_key= os.getenv('OPENAI_API_KEY'))
+        embeddings = OpenAIEmbeddings(openai_api_key= os.environ.get('OPENAI_API_KEY'))
 
         filtered_docs = []
 
@@ -195,7 +196,18 @@ def test():
     return {"response":"test"}
 
 @app.post("/api/{role}")
-def get_role(role:str, filtro_request: FiltroRequest):
+def get_role_post(role:str, filtro_request: FiltroRequest):
+
+    filtro = dict(filtro_request)
+    respuesta = recomendador.get_recommendations(role, filtro)
+    native_data = convert_numpy_to_native(respuesta)
+    respuesta_compatible = jsonable_encoder(native_data)
+    respuesta_compatible.sort(key=lambda x: -x["afinidad"])
+    sanitized_data = sanitize_data(respuesta_compatible)
+    return {"response":sanitized_data}
+
+@app.get("/api/{role}")
+def get_role_get(role:str, filtro_request: FiltroRequest):
 
     filtro = dict(filtro_request)
     respuesta = recomendador.get_recommendations(role, filtro)
