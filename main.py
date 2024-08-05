@@ -207,10 +207,8 @@ def get_role_post(role:str, filtro_request: FiltroRequest):
     return {"response":sanitized_data}
 
 @app.get("/api/{role}")
-def get_role_get(role:str, filtro_request: FiltroRequest):
-
-    filtro = dict(filtro_request)
-    respuesta = recomendador.get_recommendations(role, filtro)
+def get_role_get(role:str):
+    respuesta = recomendador.get_recommendations(role, {})
     native_data = convert_numpy_to_native(respuesta)
     respuesta_compatible = jsonable_encoder(native_data)
     respuesta_compatible.sort(key=lambda x: -x["afinidad"])
