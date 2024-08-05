@@ -47,7 +47,7 @@ class MajorRecommender:
 
 
         for doc in docs:
-            if ('ranking_maximo' in filtro and filtro['ranking_maximo'] != 0 and int(doc.metadata.get('Ranking institución educativa')) >= filtro['ranking_maximo']):
+            if ('ranking_maximo' in filtro and filtro['ranking_maximo'] is not None and filtro['ranking_maximo'] != 0 and int(doc.metadata.get('Ranking institución educativa')) >= filtro['ranking_maximo']):
                 continue
             if ('origen' in filtro and filtro['origen'] != "" and doc.metadata.get('Origen institución educativa') != filtro['origen']):
                 continue
