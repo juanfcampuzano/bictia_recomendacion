@@ -203,30 +203,24 @@ def test():
 
 @app.post("/api/{role}")
 def get_role_post(filtro_request: FiltroRequest):
-    try:
-        filtro = dict(filtro_request)
-        role = filtro['role']
-        respuesta = recomendador.get_recommendations(role, filtro)
-        native_data = convert_numpy_to_native(respuesta)
-        respuesta_compatible = jsonable_encoder(native_data)
-        respuesta_compatible.sort(key=lambda x: -x["afinidad"])
-        sanitized_data = sanitize_data(respuesta_compatible)
-        return {"response":sanitized_data}
-    except:
-        return {"response":[]}
+
+    filtro = dict(filtro_request)
+    respuesta = recomendador.get_recommendations(filtro['role'], filtro)
+    native_data = convert_numpy_to_native(respuesta)
+    respuesta_compatible = jsonable_encoder(native_data)
+    respuesta_compatible.sort(key=lambda x: -x["afinidad"])
+    sanitized_data = sanitize_data(respuesta_compatible)
+    return {"response":sanitized_data}
+
 
 @app.get("/api/{role}")
 def get_role_get(filtro_request: FiltroRequest):
-    try:
 
         filtro = dict(filtro_request)
-
-        role = filtro['role']
-        respuesta = recomendador.get_recommendations(role, filtro)
+        
+        respuesta = recomendador.get_recommendations(filtro['role'], filtro)
         native_data = convert_numpy_to_native(respuesta)
         respuesta_compatible = jsonable_encoder(native_data)
         respuesta_compatible.sort(key=lambda x: -x["afinidad"])
         sanitized_data = sanitize_data(respuesta_compatible)
         return {"response":sanitized_data}
-    except:
-        return {"response":[]}
