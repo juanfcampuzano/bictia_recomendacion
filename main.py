@@ -18,11 +18,11 @@ from pydantic import BaseModel
 
 
 class FiltroRequest(BaseModel):
-    role: str
-    ranking_maximo: int
-    origen: str 
-    precio_maximo: str
-    metodologia:str
+    role: str | None = None
+    ranking_maximo: int | None = None
+    origen: str | None = None
+    precio_maximo: str | None = None
+    metodologia:str | None = None
 
 load_dotenv()
 
