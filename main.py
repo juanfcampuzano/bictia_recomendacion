@@ -23,8 +23,6 @@ class FiltroRequest(BaseModel):
     precio_maximo: str
     metodologia:str
 
-os.environ['OPENAI_API_KEY'] = "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"
-
 load_dotenv()
 
 class MajorRecommender:
@@ -40,7 +38,7 @@ class MajorRecommender:
         loader = CSVLoader("ProgramasCompletos.csv", encoding='utf-8', 
                            metadata_columns=['Ranking institución educativa', 'Origen institución educativa', 'Metodología programa educativo', 'precio'])
         docs = loader.load()
-        self.llm = ChatOpenAI(temperature = 0.0, max_tokens=10000, openai_api_key= os.environ.get('OPENAI_API_KEY'), model='gpt-4o-mini')
+        self.llm = ChatOpenAI(temperature = 0.0, openai_api_key= os.environ.get('OPENAI_API_KEY'))
 
         embeddings = OpenAIEmbeddings(openai_api_key= os.environ.get('OPENAI_API_KEY'))
 
@@ -60,7 +58,7 @@ class MajorRecommender:
 
         db = DocArrayInMemorySearch.from_documents(filtered_docs, embeddings)
 
-        retriever = db.as_retriever(search_kwargs={"k": 15, "filter": filtro})
+        retriever = db.as_retriever(search_kwargs={"k": 10, "filter": filtro})
 
         qa_stuff = RetrievalQA.from_chain_type(
         llm=self.llm, 
