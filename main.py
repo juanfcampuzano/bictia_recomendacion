@@ -39,10 +39,9 @@ class MajorRecommender:
         loader = CSVLoader("ProgramasCompletos.csv", encoding='utf-8', 
                            metadata_columns=['Ranking institución educativa', 'Origen institución educativa', 'Metodología programa educativo', 'precio'])
         docs = loader.load()
-        self.llm = ChatOpenAI(temperature = 0.0, openai_api_key= os.environ.get('OPENAI_API_KEY'))
+        self.llm = ChatOpenAI(temperature = 0.0, openai_api_key= os.environ.get('OPENAI_API_KEY'), model ='gpt-4o-mini')
 
         embeddings = OpenAIEmbeddings(openai_api_key= os.environ.get('OPENAI_API_KEY'))
-
         filtered_docs = []
 
 
@@ -60,7 +59,7 @@ class MajorRecommender:
 
         db = DocArrayInMemorySearch.from_documents(filtered_docs, embeddings)
 
-        retriever = db.as_retriever(search_kwargs={"k": 10, "filter": filtro})
+        retriever = db.as_retriever(search_kwargs={"k": 5, "filter": filtro})
 
         qa_stuff = RetrievalQA.from_chain_type(
         llm=self.llm, 
@@ -109,12 +108,15 @@ class MajorRecommender:
             en markdown. PROGRAMA = {programa}
 
             id: ¿Cuál es el id de la carrera? \
-
-            afinidad: ¿De 0 a 100 que afinidad me das a estudiar esta carrera en esta universidad? \
             
-            motivo: ¿Por qué me das este porcentaje de afinidad para estudiar ese programa? No menciones directamente el ranking, en caso de que sea una institucion buena, resaltalo. Considera muy buena entre el raking 1 hasta el 15. Si la institucion no tiene un raking bueno, no lo menciones.\
+            motivo: ¿Por qué me recomiendas estudiar ese programa? No menciones directamente el ranking, en caso de que sea una institucion buena, resaltalo. Considera muy buena entre el raking 1 hasta el 15. Si la institucion no tiene un raking bueno, no lo menciones.\
 
-            Formatea la salida como un diccionario, no como un json, las keys deben ser id, afinidad y motivo.
+            Formatea la salida como un diccionario, no como un json, las keys deben ser id y motivo.
+            por ejemplo:
+            
+            'id':3,
+            'motivo':'te recomiendo este programa por...'
+            
             """
 
         prompt_template = ChatPromptTemplate.from_template(template_recommendation_percentage)  
@@ -122,7 +124,9 @@ class MajorRecommender:
         messages = prompt_template.format_messages(role = role, programa = programa)
         formated_response = self.llm(messages)
 
-        response = eval(formated_response.content.replace("```", "").replace("json", ""))
+        print('formated_response.content', formated_response.content)
+
+        response = eval(formated_response.content.replace("```", "").replace("json", "").replace("```","").replace("markdown",""))
 
         final_response = {k.lower():v for k,v in response.items()}
         return final_response
@@ -156,7 +160,8 @@ class MajorRecommender:
 
 
         for candidato in carreras_candidatos:
-            respuesta_candidato_actual = self.get_recommendation_percentage(role, candidato)
+            # respuesta_candidato_actual = self.get_recommendation_percentage(role, candidato)
+            respuesta_candidato_actual = {'id':candidato['ID']}
             full_data = self.add_data(respuesta_candidato_actual)
             response.append(full_data) if full_data is not None else None
 
@@ -208,7 +213,7 @@ def get_role_post(filtro_request: FiltroRequest):
     respuesta = recomendador.get_recommendations(filtro['role'], filtro)
     native_data = convert_numpy_to_native(respuesta)
     respuesta_compatible = jsonable_encoder(native_data)
-    respuesta_compatible.sort(key=lambda x: -x["afinidad"])
+    # respuesta_compatible.sort(key=lambda x: -x["afinidad"])
     sanitized_data = sanitize_data(respuesta_compatible)
     return {"response":sanitized_data}
 
