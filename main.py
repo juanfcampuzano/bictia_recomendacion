@@ -188,7 +188,7 @@ def sanitize_data(data: List[Dict[str, Union[int, float, str]]]) -> List[Dict[st
 
 def normalize_query(query):
     reemplazos = {'cto': 'gerente de tecnología y programación', 'ceo': 'gerente ejecutivo general', 'cfo': 'gerente de finanzas', 'cgo': 'gerente de crecimiento, relaciones y ventas', 'chef':'gastronomo', 'cocinero':'gastronomo','culinario':'gastronomo','gestor de transito aereo':'controlador aereo', 'project manager':'gestor de proyectos'}
-    normalized_query = [ reemplazos[word] if word in reemplazos else word for word in query.split()]
+    normalized_query = [ reemplazos[word.lower()] if word.lower() in reemplazos else word for word in query.split()]
     return ' '.join(normalized_query)
 
 app = FastAPI()
