@@ -1,4 +1,4 @@
-﻿ID,Area programa educativo,Titulo egresado
+ID,Area programa educativo,Titulo egresado
 1,Administración,ADMINISTRADOR(A) DE EMPRESAS
 2,Antropología y  artes liberales,ANTROPOLOGO(A)
 3,Arquitectura,ARQUITECTO(A)
@@ -106,53 +106,6 @@
 105,Educación,LICENCIADO EN QUIMICA
 106,Matemáticas estadística y afines,MATEMATICO
 107,Química y afines,QUÍMICO (A)
-108,Administración,ADMINISTRADOR DE EMPRESAS
-109,Antropología y  artes liberales,ANTROPÓLOGO(A)
-110,Arquitectura,ARQUITECTO
-111,Artes representativas,MAESTRO EN ARTES ESCÉNICAS
-112,Artes plásticas visuales y afines,MAESTRO EN ARTES VISUALES
-113,Bacteriología,BACTERIOLOGO
-114,Ingeniería ambiental sanitaria y afines,BIOINGENIERO(A)
-115,Biología microbiología y afines,BIOLOGO
-116,Matemáticas estadística y afines,CIENTÍFICO(A) DE DATOS
-117,Bibliotecología otros de ciencias sociales y humanas,PROFESIONAL EN CIENCIA DE LA INFORMACION BIBLIOTECOLOGIA Y ARCHIVISTICA
-118,Ciencia política relaciones internacionales,POLITOLOGO
-119,Comunicación social periodismo y afines,COMUNICADOR SOCIAL
-120,Contaduría pública,CONTADOR PUBLICO
-121,Derecho y afines,ABOGADO
-122,Diseño,DISEÑADOR INDUSTRIAL
-123,Biología microbiología y afines,ECOLOGO
-124,Economía,ECONOMISTA
-125,Enfermería,ENFERMERA(O)
-126,Lenguas modernas literatura linguística y afines,PROFESIONAL EN ESTUDIOS LITERARIOS
-127,Música,MAESTRO EN MUSICA
-128,Filosofía teología y afines,FILOSOFO
-129,Administración,PROFESIONAL EN FINANZAS
-130,Geografía historia,HISTORIADOR
-131,Ingeniería civil y afines,INGENIERO CIVIL
-132,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS
-133,Ingeniería electrónica telecomunicaciones y afines,INGENIERO ELECTRONICO
-134,Ingeniería de sistemas telemática y afines,INGENIERO(A) EN REDES Y TELECOMUNICACIONES
-135,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
-136,Ingeniería mecánica y afines,INGENIERO (A) MECÁNICO (A)
-137,Sin clasificar,INGENIERO(A) MECATRÓNICO(A)
-138,Educación,LICENCIADO(A) EN CIENCIAS NATURALES Y EDUCACION AMBIENTAL
-139,Educación,LICENCIADO EN EDUCACION FISICA
-140,Educación,LICENCIADO(A) EN EDUCACIÓN INFANTIL
-141,Educación,LICENCIADO EN FILOSOFIA
-142,Educación,LICENCIADO EN LENGUAS MODERNAS CON ÉNFASIS EN INGLÉS Y FRANCÉS
-143,Educación,LICENCIADO(A) EN LITERATURA Y LENGUA CASTELLANA
-144,Educación,LICENCIADO EN TEOLOGIA
-145,Matemáticas estadística y afines,MATEMÁTICO
-146,Medicina,MEDICO CIRUJANO
-147,Biología microbiología y afines,MICROBIOLOGO INDUSTRIAL
-148,Nutrición y dietética,NUTRICIONISTA DIETISTA
-149,Odontología,ODONTOLOGO
-150,Psicología,PSICOLOGO(A)
-151,Química y afines,QUÍMICO (A) FARMACÉUTICO (A)
-152,Ciencia política relaciones internacionales,INTERNACIONALISTA
-153,Sociología trabajo social y afines,SOCIÓLOGO (A)
-154,Filosofía teología y afines,TEOLOGO
 155,Administración,ADMINISTRADOR AMBIENTAL Y DE LOS RECURSOS NATURALES
 156,Administración,ADMINISTRADOR DE EMPRESAS
 157,Administración,PROFESIONAL EN ADMINISTRACIÓN  DE EMPRESAS
@@ -205,40 +158,6 @@
 204,Psicología,PSICOLOGO(A)
 205,Sociología trabajo social y afines,SOCIOLOGO
 206,Sociología trabajo social y afines,TRABAJADOR SOCIAL
-207,Administración,ADMINISTRADOR DE EMPRESAS
-208,Administración,ADMINISTRADOR DE EMPRESAS AGROPECUARIAS
-209,Agronomía,AGROECÓLOGO
-210,Arquitectura,ARQUITECTO
-211,Artes plásticas visuales y afines,MAESTRO EN ARTES PLASTICAS
-212,Economía,PROFESIONAL EN BANCA Y FINANZAS
-213,Biología microbiología y afines,BIOLOGO AMBIENTAL
-214,Biología microbiología y afines,BIOLOGO MARINO
-215,Ciencia política relaciones internacionales,POLITÓLOGO
-216,Comunicación social periodismo y afines,PROFESIONAL EN CINE Y TELEVISIÓN
-217,Economía,PROFESIONAL EN COMERCIO INTERNACIONAL Y FINANZAS
-218,Comunicación social periodismo y afines,COMUNICADOR SOCIAL- PERIODISTA
-219,Contaduría pública,CONTADOR PUBLICO
-220,Derecho y afines,ABOGADO
-221,Diseño,PROFESIONAL EN DISEÑO GRAFICO
-222,Diseño,DISEÑADOR INDUSTRIAL
-223,Artes plásticas visuales y afines,DISEÑADOR INTERACTIVO
-224,Diseño,DISEÑADOR Y GESTOR DE LA MODA
-225,Economía,ECONOMISTA
-226,Lenguas modernas literatura linguística y afines,PROFESIONAL EN ESTUDIOS LITERARIOS Y EDICIÓN
-227,Comunicación social periodismo y afines,PROFESIONAL EN FOTOGRAFÍA
-228,Geografía historia,HISTORIADOR DEL ARTE
-229,Ingeniería ambiental sanitaria y afines,INGENIERO AMBIENTAL
-230,Ingeniería agroindustrial alimentos y afines,INGENIERO DE ALIMENTOS
-231,Ingeniería de sistemas telemática y afines,INGENIERO (A) DE SISTEMAS
-232,Ingeniería industrial y afines,INGENIERO  EN AUTOMATIZACIÓN
-233,Ingeniería industrial y afines,INGENIERO EN ENERGÍA
-234,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
-235,Ingeniería química y afines,INGENIERO QUIMICO
-236,Administración,PROFESIONAL EN MERCADEO
-237,Matemáticas estadística y afines,PROFESIONAL EN MODELADO Y SIMULACIÓN COMPUTACIONAL
-238,Artes plásticas visuales y afines,PROFESIONAL EN PUBLICIDAD
-239,Artes plásticas visuales y afines,REALIZADOR EN ANIMACIÓN
-240,Ciencia política relaciones internacionales,PROFESIONAL EN RELACIONES INTERNACIONALES
 241,Administración,ADMINISTRADOR DE EMPRESAS
 242,Biología microbiología y afines,BIÓLOGO
 243,Artes plásticas visuales y afines,MAESTRO EN CINEMATOGRAFÍA - MAESTRA EN CINEMATOGRAFÍA
@@ -257,42 +176,6 @@
 256,Administración,MERCADÓLOGO
 257,Publicidad y afines,PUBLICISTA
 258,Sociología trabajo social y afines,TRABAJADOR (A) SOCIAL
-259,Administración,ADMINISTRADOR DE EMPRESAS
-260,Administración,ADMINISTRADOR DE NEGOCIOS INTERNACIONALES
-261,Administración,ADMINISTRADOR EN LOGISTICA Y PRODUCCION
-262,Antropología y  artes liberales,ANTROPOLOGO
-263,Sin clasificar,ARQUITECTO / ARQUITECTA
-264,Sin clasificar,MAESTRO EN ARTES
-265,Antropología y  artes liberales,PROFESIONAL EN ARTES LIBERALES EN CIENCIAS SOCIALES
-266,Biología microbiología y afines,BIOLÓGO(A)
-267,Ciencia política relaciones internacionales,POLITÓLOGO(A) ¿ PROFESIONAL EN CIENCIA POLÍTICA Y GOBIERNO
-268,Sin clasificar,PROFESIONAL EN CIENCIAS DEL SISTEMA TIERRA
-269,Sin clasificar,CREATIVO / CREATIVA
-270,Sin clasificar,DISEÑADOR / DISEÑADORA
-271,Economía,ECONOMISTA
-272,Sin clasificar,ENFERMERA-ENFERMERO
-273,Sociología trabajo social y afines,PROFESIONAL EN FILOSOFIA
-274,Economía,PROFESIONAL EN FINANZAS Y COMERCIO INTERNACIONAL
-275,Terapias,FISOTERAPEUTA
-276,Terapias,FONOAUDIOLOGO(A)
-277,Arquitectura,PROFESIONAL EN GESTION Y DESARROLLO URBANOS
-278,Geografía historia,HISTORIADOR
-279,Sin clasificar,INGENIERA DE SISTEMAS ENERGÉTICOS / INGENIERO DE SISTEMAS ENERGÉTICOS
-280,Sin clasificar,INGENIERA ELECTRÓNICO / INGENIERO ELECTRÓNICA
-281,Sin clasificar,INGENIERO INDUSTRIAL / INGENIERA INDUSTRIAL
-282,Derecho y afines,ABOGADO
-283,Educación,LICENCIADO EN CIENCIAS SOCIALES
-284,Educación,LICENCIADO EN FILOSOFÍA
-285,Publicidad y afines,PROFESIONAL EN MARKETING Y NEGOCIOS DIGITALES
-286,Matemáticas estadística y afines,PROFESIONAL EN MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN
-287,Medicina,MEDICO
-288,Comunicación social periodismo y afines,PROFESIONAL EN PERIODISMO Y OPINION PUBLICA
-289,Sin clasificar,PROFESIONAL EN EMPRENDIMIENTO
-290,Psicología,PSICOLOGO
-291,Ciencia política relaciones internacionales,INTERNACIONALISTA
-292,Sociología trabajo social y afines,SOCIOLOGO(A)
-293,Música,MAESTRO EN TEATRO MUSICAL
-294,Terapias,TERAPEUTA OCUPACIONAL
 295,Administración,ADMINISTRADOR DE EMPRESAS
 296,Arquitectura,ARQUITECTO
 297,Economía,ECONOMISTA
@@ -359,43 +242,11 @@
 358,Sin clasificar,PROFESIONAL EN MARKETING INTEGRAL Y NEGOCIOS GLOBALES
 359,Matemáticas estadística y afines,MATEMATICO
 360,Música,MAESTRO EN MUSICA
-361,Biología microbiología y afines,BIOLOGO
 362,Sin clasificar,PROFESIONAL EN NEGOCIOS ESTRATÉGICOS DE MODA
 363,Ciencia política relaciones internacionales,PROFESIONAL EN POLÍTICA Y RELACIONES INTERNACIONALES
 364,Psicología,PSICÓLOGO
 365,Ciencia política relaciones internacionales,PROFESIONAL EN PUBLICIDAD INTERNACIONAL
 366,Artes representativas,MAESTRO EN TEATRO MUSICAL
-367,Administración,ADMINISTRADOR DE EMPRESAS
-368,Arquitectura,ARQUITECTO (A)
-369,Artes representativas,MAESTRO EN ARTE DRAMATICO
-370,Artes plásticas visuales y afines,MAESTRO EN ARTES PLÁSTICAS
-371,Ingeniería biomédica y afines,BIOINGENIERO
-372,Ciencia política relaciones internacionales,POLITÓLOGO (A)
-373,Contaduría pública,CONTADOR PÚBLICO
-374,Derecho y afines,ABOGADO (A)
-375,Diseño,DISEÑADOR DE COMUNICACIÓN
-376,Diseño,DISEÑADOR INDUSTRIAL
-377,Enfermería,ENFERMERA(O)
-378,Matemáticas estadística y afines,ESTADÍSTICO
-379,Filosofía teología y afines,FILOSOFO
-380,Sin clasificar,PROFESIONAL EN FINANZAS
-381,Música,MAESTRO EN MUSICA
-382,Ingeniería ambiental sanitaria y afines,INGENIERO AMBIENTAL
-383,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS
-384,Ingeniería electrónica telecomunicaciones y afines,INGENIERO ELECTRONICO
-385,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
-386,Instrumentación quirúrgica,PROFESIONAL EN INSTRUMENTACIÓN QUIRÚRGICA
-387,Lenguas modernas literatura linguística y afines,INTÉRPRETE PROFESIONAL DE LA LENGUA DE SEÑAS COLOMBIANA
-388,Educación,LICENCIADO EN EN BILINGÜISMO CON ENFASIS EN LA ENSEÑANZA DEL INGLÉS
-389,Educación,LICENCIADO EN EDUCACIÓN INFANTIL
-390,Sin clasificar,PROFESIONAL EN MARKETING Y TRANSFORMACI¿N DIGITAL
-391,Matemáticas estadística y afines,MATEMÁTICO
-392,Medicina,MEDICO Y CIRUJANO
-393,Administración,PROFESIONAL EN NEGOCIOS INTERNACIONALES
-394,Odontología,ODONTOLOGO
-395,Optometría otros programas de ciencias de la salud,OPTOMETRA
-396,Psicología,PSICOLOGO
-397,Química y afines,QUÍMICO (A) FARMACÉUTICO (A)
 398,Administración,ADMINISTRADOR DE EMPRESAS
 399,Administración,ADMINISTRADOR DEPORTIVO
 400,Administración,ADMINISTRADOR LOGÍSTICO
@@ -476,50 +327,6 @@
 475,Educación,LICENCIADO EN EDUCACIÓN INFANTIL
 476,Educación,LICENCIADO EN ESPAÑOL Y LENGUAS EXTRANJERAS
 477,Administración,PROFESIONAL EN NEGOCIOS INTERNACIONALES
-478,Administración,ADMINISTRADOR (A) DE EMPRESAS
-479,Antropología y  artes liberales,ANTROPOLOGO
-480,Arquitectura,ARQUITECTO
-481,Artes plásticas visuales y afines,MAESTRO EN ARTE
-482,Biología microbiología y afines,BIOLOGO
-483,Ciencia política relaciones internacionales,POLITOLOGO
-484,Contaduría pública,CONTADOR PÚBLICO INTERNACIONAL
-485,Derecho y afines,ABOGADO
-486,Diseño,DISEÑADOR
-487,Economía,ECONOMISTA
-488,Filosofía teología y afines,FILOSOFO
-489,Física,FISICO
-490,Geología otros programas de ciencias naturales,GEOCIENTIFICO
-491,Administración,PROFESIONAL EN GOBIERNO Y ASUNTOS PUBLICOS
-492,Geografía historia,HISTORIADOR
-493,Geografía historia,HISTORIADOR DEL ARTE
-494,Ingeniería ambiental sanitaria y afines,INGENIERO AMBIENTAL
-495,Otras ingenierías,INGENIERO BIOMEDICO
-496,Ingeniería civil y afines,INGENIERO CIVIL
-497,Ingeniería agroindustrial alimentos y afines,INGENIERO DE ALIMENTOS
-498,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS Y COMPUTACION
-499,Ingeniería eléctrica y afines,INGENIERO (A) ELECTRICO
-500,Ingeniería electrónica telecomunicaciones y afines,INGENIERO ELECTRONICO
-501,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
-502,Ingeniería mecánica y afines,INGENIERO MECANICO
-503,Ingeniería química y afines,INGENIERO QUIMICO
-504,Lenguas modernas literatura linguística y afines,PROFESIONAL EN LENGUAS Y CULTURA
-505,Educación,LICENCIADO EN ARTES
-506,Educación,LICENCIADO EN BIOLOGIA
-507,Educación,LICENCIADO EN EDUCACIÓN INFANTIL
-508,Educación,LICENCIADO EN ESPAÑOL Y FILOLOGÍA
-509,Educación,LICENCIADO EN FILOSOFIA
-510,Educación,LICENCIADO EN FÍSICA
-511,Educación,LICENCIADO EN HISTORIA
-512,Educación,LICENCIADO EN MATEMÁTICAS
-513,Educación,LICENCIADO EN QUIMICA
-514,Lenguas modernas literatura linguística y afines,LITERATO (A)
-515,Matemáticas estadística y afines,MATEMATICO
-516,Medicina,MÉDICO
-517,Biología microbiología y afines,MICROBIOLOGO
-518,Música,MUSICO
-519,Comunicación social periodismo y afines,NARRADOR DIGITAL
-520,Psicología,PSICOLOGO
-521,Química y afines,QUIMICO(A)
 522,Administración,ADMINISTRADOR AMBIENTAL
 523,Administración,ADMINISTRADOR DE EMPRESAS
 524,Arquitectura,ARQUITECTO
@@ -549,45 +356,6 @@
 548,Administración,PROFESIONAL EN MERCADEO
 549,Odontología,ODONTOLOGO
 550,Psicología,PSICOLOGO
-551,Administración,ADMINISTRADOR DE EMPRESAS
-552,Arquitectura,ARQUITECTO
-553,Artes plásticas visuales y afines,MAESTRO EN ARTES PLÁSTICAS Y VISUALES
-554,Química y afines,BIOQUIMICO
-555,Biología microbiología y afines,BIOTECNÓLOGO
-556,Economía,PROFESIONAL EN COMERCIO INTERNACIONAL
-557,Contaduría pública,CONTADOR PUBLICO
-558,Derecho y afines,ABOGADO
-559,Diseño,DISEÑADOR GRÁFICO
-560,Diseño,DISE¿ADOR INDUSTRIAL
-561,Economía,ECONOMISTA
-562,Enfermería,ENFERMERA (O)
-563,Administración,PROFESIONAL EN HOTELERIA Y TURISMO ECOLOGICO
-564,Ingeniería ambiental sanitaria y afines,INGENIERO AMBIENTAL
-565,Ingeniería biomédica y afines,INGENIERO BIOMEDICO
-566,Ingeniería civil y afines,INGENIERO CIVIL
-567,Ingeniería de sistemas telemática y afines,INGENIERO DE SISTEMAS Y COMPUTACION
-568,Ingeniería de sistemas telemática y afines,INGENIERO DE SOFTWARE
-569,Sin clasificar,INGENIERO ELECTROMECÀNICO
-570,Ingeniería electrónica telecomunicaciones y afines,INGENIERO ELECTRÓNICO
-571,Ingeniería electrónica telecomunicaciones y afines,INGENIERO EN CONTROL Y AUTOMATIZACION INDUSTRIAL
-572,Ingeniería industrial y afines,INGENIERO INDUSTRIAL
-573,Ingeniería mecánica y afines,INGENIERO MECANICO
-574,Ingeniería electrónica telecomunicaciones y afines,INGENIERO MECATRONICO
-575,Educación,LICENCIADO(A) EN ARTES ESCENICAS
-576,Sin clasificar,LICENCIADO EN CIENCIAS NATURALES Y EDUCACIÒN AMBIENTAL
-577,Educación,LICENCIADO(A) EN CIENCIAS SOCIALES
-578,Sin clasificar,LICENCIADO EN EDUCACIÓN INFANTIL
-579,Educación,LICENCIADO EN ESPAÑOL E INGLÉS
-580,Educación,LICENCIADO EN MATEMATICAS
-581,Educación,LICENCIADO EN MATEMATICAS E INFORMATICA
-582,Medicina,MEDICO
-583,Medicina veterinaria,MEDICO VETERINARIO
-584,Música,MAESTRO EN MUSICA
-585,Odontología,ODONTOLOGO
-586,Optometría otros programas de ciencias de la salud,OPTÓMETRA
-587,Sin clasificar,MAESTRO EN  DANZA TEATRO
-588,Psicología,PSICOLOGO (A)
-589,Psicología,PSICOLOGO
 590,Administración,ADMINISTRADOR DE EMPRESAS
 591,Biología microbiología y afines,PROFESIONAL UNIVERSITARIO EN CIENCIAS AMBIENTALES
 592,Deportes educación física y recreación,PROFESIONAL EN CIENCIAS DEL DEPORTE
