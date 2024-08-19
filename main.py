@@ -187,9 +187,9 @@ def sanitize_data(data: List[Dict[str, Union[int, float, str]]]) -> List[Dict[st
     return data
 
 def normalize_query(query):
-    reemplazos = {'project manager':'gestor de proyectos'}
-    normalized_query = ""
-    return normalized_query
+    reemplazos = {'cto': 'gerente de tecnología y programación', 'ceo': 'gerente ejecutivo general', 'cfo': 'gerente de finanzas', 'cgo': 'gerente de crecimiento, relaciones y ventas', 'chef':'gastronomo', 'cocinero':'gastronomo','culinario':'gastronomo','gestor de transito aereo':'controlador aereo', 'project manager':'gestor de proyectos'}
+    normalized_query = [ reemplazos[word] if word in reemplazos else word for word in query.split()]
+    return ' '.join(normalized_query)
 
 app = FastAPI()
 app.add_middleware(
@@ -210,7 +210,9 @@ def test():
 def get_role_post(filtro_request: FiltroRequest):
 
     filtro = dict(filtro_request)
-    respuesta = recomendador.get_recommendations(filtro['role'], filtro)
+    role = filtro['role']
+    role = normalize_query(role)
+    respuesta = recomendador.get_recommendations(role, filtro)
     native_data = convert_numpy_to_native(respuesta)
     respuesta_compatible = jsonable_encoder(native_data)
     # respuesta_compatible.sort(key=lambda x: -x["afinidad"])
@@ -222,8 +224,10 @@ def get_role_post(filtro_request: FiltroRequest):
 def get_role_get(filtro_request: FiltroRequest):
 
         filtro = dict(filtro_request)
-        
-        respuesta = recomendador.get_recommendations(filtro['role'], filtro)
+
+        role = filtro['role']
+        role = normalize_query(role)
+        respuesta = recomendador.get_recommendations(role, filtro)
         native_data = convert_numpy_to_native(respuesta)
         respuesta_compatible = jsonable_encoder(native_data)
         respuesta_compatible.sort(key=lambda x: -x["afinidad"])
