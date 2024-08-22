@@ -15,7 +15,13 @@ from dotenv import load_dotenv
 from typing import List, Dict, Union
 import math
 from pydantic import BaseModel
+import psycopg2
+from psycopg2 import sql, Error
 
+host = 'db-resumescreening-coally.c960wcwwcazt.us-east-2.rds.amazonaws.com'
+dbname = 'postgres'
+user = 'postgres'
+password = 'CoallySecur3'
 
 class FiltroRequest(BaseModel):
     role: str | None = None
@@ -59,7 +65,7 @@ class MajorRecommender:
 
         db = DocArrayInMemorySearch.from_documents(filtered_docs, embeddings)
 
-        retriever = db.as_retriever(search_kwargs={"k": 5, "filter": filtro})
+        retriever = db.as_retriever(search_kwargs={"k": 15})
 
         qa_stuff = RetrievalQA.from_chain_type(
         llm=self.llm, 
@@ -88,6 +94,8 @@ class MajorRecommender:
 
         Formatea la salida como lista de ids en formato de entero. De una forma similar a esta '[1, 3, 523, 27]' 
 
+        si no es posible, quiero que retornes una lista vacía '[]'
+
         texto: {text}
         """
 
@@ -96,41 +104,10 @@ class MajorRecommender:
         messages = prompt_template.format_messages(text=response)
         formated_response = self.llm(messages)
 
-        response = eval(formated_response.content)
-
-        filtered_df = self.df[self.df['ID'].isin(response)]
-
-        carreras_afines = list(filtered_df.to_dict('index').values())
-        return carreras_afines
+        indices = eval(formated_response.content)
+        return indices
     
-    def get_recommendation_percentage(self, role, programa):
-        template_recommendation_percentage =  """Quiero llegar a ser un {role}, necesito que me ofrezcas la afinidad (porcentaje) para el programa que te doy, basate en calidad de institucion (ranking el cual considera entre menor valor mejor, desde 1 hasta 200), Opiniones institución educativa. Tienes que incluir el ID, PORCENTAJE de afinidad y el MOTIVO de la recomendación\
-            en markdown. PROGRAMA = {programa}
 
-            id: ¿Cuál es el id de la carrera? \
-            
-            motivo: ¿Por qué me recomiendas estudiar ese programa? No menciones directamente el ranking, en caso de que sea una institucion buena, resaltalo. Considera muy buena entre el raking 1 hasta el 15. Si la institucion no tiene un raking bueno, no lo menciones.\
-
-            Formatea la salida como un diccionario, no como un json, las keys deben ser id y motivo.
-            por ejemplo:
-            
-            'id':3,
-            'motivo':'te recomiendo este programa por...'
-            
-            """
-
-        prompt_template = ChatPromptTemplate.from_template(template_recommendation_percentage)  
-
-        messages = prompt_template.format_messages(role = role, programa = programa)
-        formated_response = self.llm(messages)
-
-        print('formated_response.content', formated_response.content)
-
-        response = eval(formated_response.content.replace("```", "").replace("json", "").replace("```","").replace("markdown",""))
-
-        final_response = {k.lower():v for k,v in response.items()}
-        return final_response
-    
     def add_data(self, current_candidate_response):
         
         if not 'id' in current_candidate_response:
@@ -156,11 +133,42 @@ class MajorRecommender:
     def get_recommendations(self, role, filtro):
         response = []
 
-        carreras_candidatos = self.get_chain_response(role, filtro)
+        indices_candidatos = []
 
+        try:
+            conn = psycopg2.connect(dbname=dbname, user=user, password=password, host=host)
+            cur = conn.cursor()
+            query = f"SELECT * FROM public.responses_bictia WHERE role = '{role}'"
+            
+            cur.execute(query)
+
+            results = list(cur.fetchall())
+
+            if len(results) > 0:
+                indices_candidatos = [result[1] for result in results]
+            else:
+                indices_candidatos = self.get_chain_response(role, filtro)
+
+                for indice in indices_candidatos:
+                    query = f"INSERT INTO public.responses_bictia (role, education_index) VALUES ('{role}', {indice})"
+                    cur.execute(query)
+
+                conn.commit()
+
+        except Error as e:
+            print(f"Ocurrió un error: {e}")
+            conn.rollback()
+            indices_candidatos = self.get_chain_response(role, filtro)
+        finally:
+            
+            cur.close()
+            conn.close()
+
+        
+        filtered_df = self.df[self.df['ID'].isin(indices_candidatos)]
+        carreras_candidatos = list(filtered_df.to_dict('index').values())      
 
         for candidato in carreras_candidatos:
-            # respuesta_candidato_actual = self.get_recommendation_percentage(role, candidato)
             respuesta_candidato_actual = {'id':candidato['ID']}
             full_data = self.add_data(respuesta_candidato_actual)
             response.append(full_data) if full_data is not None else None
@@ -202,10 +210,6 @@ app.add_middleware(
 
 recomendador = MajorRecommender()
 
-@app.get("/api/test")
-def test():
-    return {"response":"test"}
-
 @app.post("/api/{role}")
 def get_role_post(filtro_request: FiltroRequest):
 
@@ -215,21 +219,5 @@ def get_role_post(filtro_request: FiltroRequest):
     respuesta = recomendador.get_recommendations(role, filtro)
     native_data = convert_numpy_to_native(respuesta)
     respuesta_compatible = jsonable_encoder(native_data)
-    # respuesta_compatible.sort(key=lambda x: -x["afinidad"])
     sanitized_data = sanitize_data(respuesta_compatible)
     return {"response":sanitized_data}
-
-
-@app.get("/api/{role}")
-def get_role_get(filtro_request: FiltroRequest):
-
-        filtro = dict(filtro_request)
-
-        role = filtro['role']
-        role = normalize_query(role)
-        respuesta = recomendador.get_recommendations(role, filtro)
-        native_data = convert_numpy_to_native(respuesta)
-        respuesta_compatible = jsonable_encoder(native_data)
-        respuesta_compatible.sort(key=lambda x: -x["afinidad"])
-        sanitized_data = sanitize_data(respuesta_compatible)
-        return {"response":sanitized_data}
