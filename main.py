@@ -195,7 +195,7 @@ def sanitize_data(data: List[Dict[str, Union[int, float, str]]]) -> List[Dict[st
     return data
 
 def normalize_query(query):
-    reemplazos = {'director técnico':'deportes','director tecnico':'deportes','dermatólogo':'médico', 'pediatra':'médico', 'community manager':'publicidad y mercadeo', 'marketing':'publicidad y mercadeo','cto': 'CHIEF TECHNOLOGY OFFICER gerente de tecnología y programación', 'ceo': 'gerente ejecutivo general', 'cfo': 'gerente de finanzas', 'cgo': 'gerente de crecimiento, relaciones y ventas', 'chef':'gastronomo', 'cocinero':'gastronomo','culinario':'gastronomo','gestor de transito aereo':'controlador aereo', 'project manager':'gestor de proyectos'}
+    reemplazos = {'director técnico':'deportes','director tecnico':'deportes','dermatólogo':'médico', 'pediatra':'médico', 'community manager':'publicidad y mercadeo', 'marketing':'publicidad y mercadeo','cto': 'CHIEF TECHNOLOGY OFFICER gerente de tecnología y programación', 'ceo': 'gerente ejecutivo general', 'cfo': 'gerente de finanzas', 'cgo': 'gerente de crecimiento, relaciones y ventas', 'chef':'gastronomo', 'cocinero':'gastronomo','culinario':'gastronomo','gestor de transito aereo':'controlador aereo', 'project manager':'gestor de proyectos', 'neuromarketero':'marketing', 'neuromarketing':'marketing'}
     normalized_query = [ reemplazos[word.lower()] if word.lower() in reemplazos else word for word in query.split()]
 
     role = ' '.join(normalized_query)
