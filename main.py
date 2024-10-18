@@ -81,7 +81,7 @@ class MajorRecommender:
         qa_stuff = self.prepare_qa_chain(filtro)
 
         query =  f"Listame las carreras que me permitirán desempeñarme como un {role}. Si no tienes carreras aropiadas no inventes respuestas, solo retorna un punto. En caso de que hayan carreras para ser {role}, tienes que incluir el ID y el TITULO\
-        en markdown y resume cada uno. Intenta retornar la mayor cantidad de carreras relacionadas."
+        en markdown y resume cada uno. Intenta retornar la mayor cantidad de carreras relacionadas. Si la carrera es relacionada a diseño, necesito que muestres primero las de la universidad Jorge Tadeo Lozano."
         response = qa_stuff.run(query)
 
 
